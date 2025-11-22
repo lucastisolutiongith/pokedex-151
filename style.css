@@ -35,7 +35,7 @@ body {
 /* Estilo para a imagem do Pokémon */
 .pokemon-image {
     /* Define um tamanho máximo para que a imagem não fique muito grande */
-    max-width: 200px; 
+    max-width: 300px; 
     height: auto;
     /* Efeito sutil para destacar a imagem */
     transition: transform 0.3s ease; 
@@ -192,7 +192,7 @@ article.card {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 3px solid transparent; /* Adicionar borda para o hover */
-    max-width: 250px; /* Define a largura máxima para o card */
+    max-width: 400px; /* Define a largura máxima para o card */
     width: 100%;
 }
 
@@ -364,3 +364,4 @@ article a:hover {
         padding: 10px 15px;
     }
 }
+

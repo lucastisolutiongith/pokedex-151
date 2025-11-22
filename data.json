@@ -1,0 +1,362 @@
+[
+  {
+    "nome": "Boston Celtics",
+    "descricao": "Representa uma base de código monolítica e robusta, com décadas de tradição e alto desempenho, exigindo constante otimização de dependências legadas.",
+    "data_criacao": "1946",
+    "link": "https://docs.celtics.com/kernel/v1",
+    "tags": [
+      "Leste",
+      "Atlântico",
+      "Monolito",
+      "Refactoring Necessário"
+    ]
+  },
+  {
+    "nome": "Los Angeles Lakers",
+    "descricao": "O equivalente ao Python: amplamente adotado, com enorme base de fãs e capacidade de resolver problemas complexos, mas com performance que varia conforme o hardware.",
+    "data_criacao": "1947",
+    "link": "https://api.lakers.com/framework/mvp",
+    "tags": [
+      "Oeste",
+      "Pacífico",
+      "Linguagem Ubíqua",
+      "Kernel Histórico"
+    ]
+  },
+  {
+    "nome": "Golden State Warriors",
+    "descricao": "A experiência do usuário (UX/UI) de elite. Focados em um 'flow' perfeito e arquitetura distribuída de alta coordenação para manter a performance de pico.",
+    "data_criacao": "1946",
+    "link": "https://design.warriors.com/ui/standard",
+    "tags": [
+      "Oeste",
+      "Pacífico",
+      "Design System",
+      "Micro-Otimizações"
+    ]
+  },
+  {
+    "nome": "Milwaukee Bucks",
+    "descricao": "Focado em eficiência e alto desempenho (High-Performance Computing - HPC), semelhante a um backend construído em Go ou Rust para processar grandes cargas de trabalho.",
+    "data_criacao": "1968",
+    "link": "https://hpc.bucks.com/core/system",
+    "tags": [
+      "Leste",
+      "Central",
+      "Backend",
+      "Eficiência"
+    ]
+  },
+  {
+    "nome": "Phoenix Suns",
+    "descricao": "Representa a arquitetura de transações atômicas. Os resultados são sempre 'tudo ou nada', com alto risco e recompensas extremas, sem meio-termo na execução.",
+    "data_criacao": "1968",
+    "link": "https://transactions.suns.com/atomic/v2",
+    "tags": [
+      "Oeste",
+      "Pacífico",
+      "Transações Atômicas",
+      "High-Stakes"
+    ]
+  },
+  {
+    "nome": "Brooklyn Nets",
+    "descricao": "Um projeto com financiamento massivo (high-hype) e grandes promessas, mas que historicamente sofre com problemas de integração e falta de coesão na entrega final.",
+    "data_criacao": "1967",
+    "link": "https://hype.nets.com/roadmap/2024",
+    "tags": [
+      "Leste",
+      "Atlântico",
+      "Integração Falha",
+      "Alto Custo"
+    ]
+  },
+  {
+    "nome": "Denver Nuggets",
+    "descricao": "Sua arquitetura de sistema é altamente distribuída, centrada em um orquestrador (Jokic) que garante a comunicação e o processamento eficiente de todos os nós (nodes).",
+    "data_criacao": "1967",
+    "link": "https://architecture.nuggets.com/orchestrator",
+    "tags": [
+      "Oeste",
+      "Noroeste",
+      "Arquitetura Distribuída",
+      "Orquestração"
+    ]
+  },
+  {
+    "nome": "Philadelphia 76ers",
+    "descricao": "Focado em processamento assíncrono. Confia em grandes blocos (estrelas) para resolver o problema, esperando o 'callback' de sucesso antes de prosseguir.",
+    "data_criacao": "1946",
+    "link": "https://async.sixers.com/queue/process",
+    "tags": [
+      "Leste",
+      "Atlântico",
+      "Assíncrono",
+      "Callback"
+    ]
+  },
+  {
+    "nome": "Dallas Mavericks",
+    "descricao": "Um sistema altamente dependente de algoritmos de Machine Learning (Luka Doncic) para a tomada de decisões, com performance diretamente ligada à qualidade da IA.",
+    "data_criacao": "1980",
+    "link": "https://ai.mavericks.com/model/luka",
+    "tags": [
+      "Oeste",
+      "Sudoeste",
+      "Machine Learning",
+      "Algoritmos"
+    ]
+  },
+  {
+    "nome": "Miami Heat",
+    "descricao": "Representa a aplicação pura da metodologia Agile. Foco na cultura de otimização, disciplina e entrega incremental, resultando em alta resiliência (Heat Culture).",
+    "data_criacao": "1988",
+    "link": "https://agile.heat.com/culture/scrum",
+    "tags": [
+      "Leste",
+      "Sudeste",
+      "Metodologia Agile",
+      "Cultura DevOps"
+    ]
+  },
+  {
+    "nome": "Chicago Bulls",
+    "descricao": "Um 'Legacy System' da era Jordan. Histórico impressionante, mas a estrutura atual exige um 'refactoring' massivo e talvez uma reescrita completa.",
+    "data_criacao": "1966",
+    "link": "https://legacy.bulls.com/maintenance/status",
+    "tags": [
+      "Leste",
+      "Central",
+      "Legacy System",
+      "Reescrita Necessária"
+    ]
+  },
+  {
+    "nome": "Atlanta Hawks",
+    "descricao": "A arquitetura de Cloud pública. Focada em escalabilidade e migração de dados, mas sofre com custos operacionais elevados e complexidade na gestão de recursos.",
+    "data_criacao": "1946",
+    "link": "https://cloud.hawks.com/scaling/migration",
+    "tags": [
+      "Leste",
+      "Sudeste",
+      "Cloud Computing",
+      "Escalabilidade"
+    ]
+  },
+  {
+    "nome": "Toronto Raptors",
+    "descricao": "Sua principal característica é a segurança e a defesa, atuando como um poderoso 'Firewall' que dificulta a penetração de ataques e a movimentação de dados externos.",
+    "data_criacao": "1995",
+    "link": "https://security.raptors.com/firewall/defense",
+    "tags": [
+      "Leste",
+      "Atlântico",
+      "Firewall",
+      "Proteção de Dados"
+    ]
+  },
+  {
+    "nome": "New York Knicks",
+    "descricao": "O exemplo clássico de 'Tech Debt' crônica. Alto investimento em recursos, mas os sistemas estão sempre atrasados devido à dívida técnica acumulada.",
+    "data_criacao": "1946",
+    "link": "https://techdebt.knicks.com/interest/analysis",
+    "tags": [
+      "Leste",
+      "Atlântico",
+      "Tech Debt",
+      "Alto Custo Operacional"
+    ]
+  },
+  {
+    "nome": "Cleveland Cavaliers",
+    "descricao": "Um framework moderno em rápida evolução. Composto por componentes jovens e promissores, que requerem ciclos constantes de atualização e patches de segurança.",
+    "data_criacao": "1970",
+    "link": "https://framework.cavs.com/upgrade/v5.0",
+    "tags": [
+      "Leste",
+      "Central",
+      "Framework Jovem",
+      "Rápida Evolução"
+    ]
+  },
+  {
+    "nome": "Houston Rockets",
+    "descricao": "Um projeto em fase de 'Rebranding' e reformulação total da arquitetura. Foco na aquisição de novos talentos e migração de componentes legados.",
+    "data_criacao": "1967",
+    "link": "https://rebrand.rockets.com/strategy/migration",
+    "tags": [
+      "Oeste",
+      "Sudoeste",
+      "Rebranding",
+      "Migração de Dados"
+    ]
+  },
+  {
+    "nome": "Memphis Grizzlies",
+    "descricao": "Focado em Testes Automatizados e qualidade de código. Grande rigor na execução e geração de logs para garantir a performance e identificar falhas rapidamente.",
+    "data_criacao": "1995",
+    "link": "https://testing.grizzlies.com/ci/qualityassurance",
+    "tags": [
+      "Oeste",
+      "Sudoeste",
+      "Testes Automatizados",
+      "QA Rigoroso"
+    ]
+  },
+  {
+    "nome": "Oklahoma City Thunder",
+    "descricao": "A arquitetura de Microserviços. Coleciona inúmeros componentes pequenos (draft picks) que, quando integrados, formam um sistema extremamente poderoso e escalável.",
+    "data_criacao": "2008",
+    "link": "https://microservices.thunder.com/architecture/scaling",
+    "tags": [
+      "Oeste",
+      "Noroeste",
+      "Microserviços",
+      "Escalabilidade Horizontal"
+    ]
+  },
+  {
+    "nome": "San Antonio Spurs",
+    "descricao": "Conhecido pela metodologia 'Código Limpo' e Refactoring Mínimo. Sistemas com eficiência clássica, pouca redundância e manutenção focada na longevidade.",
+    "data_criacao": "1967",
+    "link": "https://clean.spurs.com/code/efficiency",
+    "tags": [
+      "Oeste",
+      "Sudoeste",
+      "Código Limpo",
+      "Manutenção"
+    ]
+  },
+  {
+    "nome": "Portland Trail Blazers",
+    "descricao": "Um sistema que entrou em 'Manutenção de Software' intensiva. Foco na otimização de pequenos bugs e na preparação da infraestrutura para o futuro 'deployment'.",
+    "data_criacao": "1970",
+    "link": "https://maintenance.blazers.com/optimization/phase1",
+    "tags": [
+      "Oeste",
+      "Noroeste",
+      "Manutenção",
+      "Otimização"
+    ]
+  },
+  {
+    "nome": "Orlando Magic",
+    "descricao": "Uma 'Startup em Fase Beta'. Alto potencial não realizado, com muitos recursos disponíveis, mas falta de experiência e consistência na entrega final do produto.",
+    "data_criacao": "1989",
+    "link": "https://beta.magic.com/startup/potential",
+    "tags": [
+      "Leste",
+      "Sudeste",
+      "Fase Beta",
+      "Potencial"
+    ]
+  },
+  {
+    "nome": "Washington Wizards",
+    "descricao": "Um sistema com Documentação Desatualizada. A complexidade do código não é refletida nos manuais, levando a resultados imprevisíveis e alto índice de erros de compilação.",
+    "data_criacao": "1961",
+    "link": "https://docs.wizards.com/outdated/manual",
+    "tags": [
+      "Leste",
+      "Sudeste",
+      "Documentação Ruim",
+      "Compilação Falha"
+    ]
+  },
+  {
+    "nome": "Indiana Pacers",
+    "descricao": "Focado em Integração Contínua e Entrega Contínua (CI/CD). A equipe é confiável, com poucas falhas visíveis e um processo de deployment suave e previsível.",
+    "data_criacao": "1967",
+    "link": "https://ci.pacers.com/deployment/smooth",
+    "tags": [
+      "Leste",
+      "Central",
+      "CI/CD",
+      "Entrega Contínua"
+    ]
+  },
+  {
+    "nome": "Utah Jazz",
+    "descricao": "Atua como um 'Data Lake' - uma vasta coleção de dados (talentos e estatísticas) armazenada em alta altitude (Salt Lake City), usada para análises futuras.",
+    "data_criacao": "1974",
+    "link": "https://datalake.jazz.com/storage/analytics",
+    "tags": [
+      "Oeste",
+      "Noroeste",
+      "Data Lake",
+      "Análise de Dados"
+    ]
+  },
+  {
+    "nome": "New Orleans Pelicans",
+    "descricao": "Opera como um 'API Gateway'. É o ponto de entrada para talentos exóticos e recursos de alto valor, mas a gestão do tráfego e dos endpoints é complexa.",
+    "data_criacao": "2002",
+    "link": "https://api.pelicans.com/gateway/exotic",
+    "tags": [
+      "Oeste",
+      "Sudoeste",
+      "API Gateway",
+      "Gestão de Tráfego"
+    ]
+  },
+  {
+    "nome": "Los Angeles Clippers",
+    "descricao": "Um projeto 'Multi-Cloud' de alto orçamento. Utiliza redundância e múltiplos sistemas de contingência para garantir o funcionamento, mas o custo operacional é altíssimo.",
+    "data_criacao": "1970",
+    "link": "https://multi.clippers.com/redundancy/highavailability",
+    "tags": [
+      "Oeste",
+      "Pacífico",
+      "Multi-Cloud",
+      "High Availability"
+    ]
+  },
+  {
+    "nome": "Minnesota Timberwolves",
+    "descricao": "Focado em 'Escalabilidade Vertical'. Tenta resolver problemas adicionando recursos de hardware gigantescos (grandes jogadores) em vez de distribuir a carga de trabalho.",
+    "data_criacao": "1989",
+    "link": "https://scaling.wolves.com/vertical/resources",
+    "tags": [
+      "Oeste",
+      "Noroeste",
+      "Escalabilidade Vertical",
+      "Recursos Intensivos"
+    ]
+  },
+  {
+    "nome": "Sacramento Kings",
+    "descricao": "Exemplo de 'Deployment Após Longo Downtime'. O sistema estava inoperante por anos, mas o novo deployment (o fim da seca dos playoffs) mostrou excelente performance.",
+    "data_criacao": "1923",
+    "link": "https://deployment.kings.com/release/success",
+    "tags": [
+      "Oeste",
+      "Pacífico",
+      "Deployment",
+      "Downtime"
+    ]
+  },
+  {
+    "nome": "Detroit Pistons",
+    "descricao": "O equivalente a um sistema rodando em 'Hardware Antigo' com alto custo de manutenção. Necessita de um ciclo completo de substituição e modernização da infraestrutura.",
+    "data_criacao": "1941",
+    "link": "https://hardware.pistons.com/legacy/upgrade",
+    "tags": [
+      "Leste",
+      "Central",
+      "Hardware Legado",
+      "Infraestrutura"
+    ]
+  },
+  {
+    "nome": "Charlotte Hornets",
+    "descricao": "Um projeto focado em 'Frontend Moderno'. Design chamativo e talentos jovens, mas a integração com o backend (os resultados) ainda precisa de estabilidade.",
+    "data_criacao": "1988",
+    "link": "https://frontend.hornets.com/react/design",
+    "tags": [
+      "Leste",
+      "Sudeste",
+      "Frontend",
+      "Design Responsivo"
+    ]
+  }
+]

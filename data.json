@@ -1,362 +1,1966 @@
 [
   {
-    "nome": "Boston Celtics",
-    "descricao": "Representa uma base de código monolítica e robusta, com décadas de tradição e alto desempenho, exigindo constante otimização de dependências legadas.",
-    "data_criacao": "1946",
-    "link": "https://docs.celtics.com/kernel/v1",
+    "nome": "Bulbasaur",
+    "numero_pokedex": "001",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Um Pokémon que carrega uma semente nas costas desde o nascimento. A semente cresce lentamente, armazenando energia.",
+    "link": "https://www.pokemon.com/br/pokedex/bulbasaur",
     "tags": [
-      "Leste",
-      "Atlântico",
-      "Monolito",
-      "Refactoring Necessário"
+      "Kanto",
+      "Semente",
+      "Venenoso",
+      "Inicial"
     ]
   },
   {
-    "nome": "Los Angeles Lakers",
-    "descricao": "O equivalente ao Python: amplamente adotado, com enorme base de fãs e capacidade de resolver problemas complexos, mas com performance que varia conforme o hardware.",
-    "data_criacao": "1947",
-    "link": "https://api.lakers.com/framework/mvp",
+    "nome": "Ivysaur",
+    "numero_pokedex": "002",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Quando o bulbo nas suas costas cresce, ele aparentemente perde a capacidade de ficar em pé em suas patas traseiras.",
+    "link": "https://www.pokemon.com/br/pokedex/ivysaur",
     "tags": [
-      "Oeste",
-      "Pacífico",
-      "Linguagem Ubíqua",
-      "Kernel Histórico"
+      "Kanto",
+      "Bulbo",
+      "Evolução",
+      "Venenoso"
     ]
   },
   {
-    "nome": "Golden State Warriors",
-    "descricao": "A experiência do usuário (UX/UI) de elite. Focados em um 'flow' perfeito e arquitetura distribuída de alta coordenação para manter a performance de pico.",
-    "data_criacao": "1946",
-    "link": "https://design.warriors.com/ui/standard",
+    "nome": "Venusaur",
+    "numero_pokedex": "003",
+    "tipo": "Planta / Venenoso",
+    "descricao": "A flor nas suas costas ganha vida após absorver bastante luz solar. Ela libera um aroma relaxante durante a batalha.",
+    "link": "https://www.pokemon.com/br/pokedex/venusaur",
     "tags": [
-      "Oeste",
-      "Pacífico",
-      "Design System",
-      "Micro-Otimizações"
+      "Kanto",
+      "Flor",
+      "Forma Final",
+      "Gigamax"
     ]
   },
   {
-    "nome": "Milwaukee Bucks",
-    "descricao": "Focado em eficiência e alto desempenho (High-Performance Computing - HPC), semelhante a um backend construído em Go ou Rust para processar grandes cargas de trabalho.",
-    "data_criacao": "1968",
-    "link": "https://hpc.bucks.com/core/system",
+    "nome": "Charmander",
+    "numero_pokedex": "004",
+    "tipo": "Fogo",
+    "descricao": "A chama em sua cauda indica a sua força vital. Se a chama apagar, ele morrerá.",
+    "link": "https://www.pokemon.com/br/pokedex/charmander",
     "tags": [
-      "Leste",
-      "Central",
-      "Backend",
-      "Eficiência"
+      "Kanto",
+      "Fogo",
+      "Cauda Flamejante",
+      "Inicial"
     ]
   },
   {
-    "nome": "Phoenix Suns",
-    "descricao": "Representa a arquitetura de transações atômicas. Os resultados são sempre 'tudo ou nada', com alto risco e recompensas extremas, sem meio-termo na execução.",
-    "data_criacao": "1968",
-    "link": "https://transactions.suns.com/atomic/v2",
+    "nome": "Charmeleon",
+    "numero_pokedex": "005",
+    "tipo": "Fogo",
+    "descricao": "Gosta de batalhas quentes. Quando está animado, a chama em sua cauda arde em um tom branco-azulado.",
+    "link": "https://www.pokemon.com/br/pokedex/charmeleon",
     "tags": [
-      "Oeste",
-      "Pacífico",
-      "Transações Atômicas",
-      "High-Stakes"
+      "Kanto",
+      "Fogo",
+      "Temperamental",
+      "Evolução"
     ]
   },
   {
-    "nome": "Brooklyn Nets",
-    "descricao": "Um projeto com financiamento massivo (high-hype) e grandes promessas, mas que historicamente sofre com problemas de integração e falta de coesão na entrega final.",
-    "data_criacao": "1967",
-    "link": "https://hype.nets.com/roadmap/2024",
+    "nome": "Charizard",
+    "numero_pokedex": "006",
+    "tipo": "Fogo / Voador",
+    "descricao": "Ele cospe fogo tão quente que derrete pedras. É conhecido por causar incêndios florestais acidentais.",
+    "link": "https://www.pokemon.com/br/pokedex/charizard",
     "tags": [
-      "Leste",
-      "Atlântico",
-      "Integração Falha",
-      "Alto Custo"
+      "Kanto",
+      "Dragão",
+      "Voador",
+      "Mega Evolução"
     ]
   },
   {
-    "nome": "Denver Nuggets",
-    "descricao": "Sua arquitetura de sistema é altamente distribuída, centrada em um orquestrador (Jokic) que garante a comunicação e o processamento eficiente de todos os nós (nodes).",
-    "data_criacao": "1967",
-    "link": "https://architecture.nuggets.com/orchestrator",
+    "nome": "Squirtle",
+    "numero_pokedex": "007",
+    "tipo": "Água",
+    "descricao": "Quando se sente ameaçado, ele puxa seu pescoço para dentro do casco e jorra água pela boca.",
+    "link": "https://www.pokemon.com/br/pokedex/squirtle",
     "tags": [
-      "Oeste",
-      "Noroeste",
-      "Arquitetura Distribuída",
-      "Orquestração"
+      "Kanto",
+      "Água",
+      "Casco",
+      "Inicial"
     ]
   },
   {
-    "nome": "Philadelphia 76ers",
-    "descricao": "Focado em processamento assíncrono. Confia em grandes blocos (estrelas) para resolver o problema, esperando o 'callback' de sucesso antes de prosseguir.",
-    "data_criacao": "1946",
-    "link": "https://async.sixers.com/queue/process",
+    "nome": "Wartortle",
+    "numero_pokedex": "008",
+    "tipo": "Água",
+    "descricao": "É frequentemente confundido com um Pokémon antigo. Possui uma cauda grande coberta por um pelo rico.",
+    "link": "https://www.pokemon.com/br/pokedex/wartortle",
     "tags": [
-      "Leste",
-      "Atlântico",
-      "Assíncrono",
-      "Callback"
+      "Kanto",
+      "Água",
+      "Cauda",
+      "Evolução"
     ]
   },
   {
-    "nome": "Dallas Mavericks",
-    "descricao": "Um sistema altamente dependente de algoritmos de Machine Learning (Luka Doncic) para a tomada de decisões, com performance diretamente ligada à qualidade da IA.",
-    "data_criacao": "1980",
-    "link": "https://ai.mavericks.com/model/luka",
+    "nome": "Blastoise",
+    "numero_pokedex": "009",
+    "tipo": "Água",
+    "descricao": "Possui canhões de água que se projetam do casco. Eles disparam jatos de água que podem perfurar chapas de aço.",
+    "link": "https://www.pokemon.com/br/pokedex/blastoise",
     "tags": [
-      "Oeste",
-      "Sudoeste",
-      "Machine Learning",
-      "Algoritmos"
+      "Kanto",
+      "Canhão",
+      "Forma Final",
+      "Gigamax"
     ]
   },
   {
-    "nome": "Miami Heat",
-    "descricao": "Representa a aplicação pura da metodologia Agile. Foco na cultura de otimização, disciplina e entrega incremental, resultando em alta resiliência (Heat Culture).",
-    "data_criacao": "1988",
-    "link": "https://agile.heat.com/culture/scrum",
+    "nome": "Caterpie",
+    "numero_pokedex": "010",
+    "tipo": "Inseto",
+    "descricao": "Tem um apetite voraz. Pode devorar as folhas de árvores maiores que ele em um instante.",
+    "link": "https://www.pokemon.com/br/pokedex/caterpie",
     "tags": [
-      "Leste",
-      "Sudeste",
-      "Metodologia Agile",
-      "Cultura DevOps"
-    ]
-  },
-  {
-    "nome": "Chicago Bulls",
-    "descricao": "Um 'Legacy System' da era Jordan. Histórico impressionante, mas a estrutura atual exige um 'refactoring' massivo e talvez uma reescrita completa.",
-    "data_criacao": "1966",
-    "link": "https://legacy.bulls.com/maintenance/status",
-    "tags": [
-      "Leste",
-      "Central",
-      "Legacy System",
-      "Reescrita Necessária"
-    ]
-  },
-  {
-    "nome": "Atlanta Hawks",
-    "descricao": "A arquitetura de Cloud pública. Focada em escalabilidade e migração de dados, mas sofre com custos operacionais elevados e complexidade na gestão de recursos.",
-    "data_criacao": "1946",
-    "link": "https://cloud.hawks.com/scaling/migration",
-    "tags": [
-      "Leste",
-      "Sudeste",
-      "Cloud Computing",
-      "Escalabilidade"
-    ]
-  },
-  {
-    "nome": "Toronto Raptors",
-    "descricao": "Sua principal característica é a segurança e a defesa, atuando como um poderoso 'Firewall' que dificulta a penetração de ataques e a movimentação de dados externos.",
-    "data_criacao": "1995",
-    "link": "https://security.raptors.com/firewall/defense",
-    "tags": [
-      "Leste",
-      "Atlântico",
-      "Firewall",
-      "Proteção de Dados"
-    ]
-  },
-  {
-    "nome": "New York Knicks",
-    "descricao": "O exemplo clássico de 'Tech Debt' crônica. Alto investimento em recursos, mas os sistemas estão sempre atrasados devido à dívida técnica acumulada.",
-    "data_criacao": "1946",
-    "link": "https://techdebt.knicks.com/interest/analysis",
-    "tags": [
-      "Leste",
-      "Atlântico",
-      "Tech Debt",
-      "Alto Custo Operacional"
-    ]
-  },
-  {
-    "nome": "Cleveland Cavaliers",
-    "descricao": "Um framework moderno em rápida evolução. Composto por componentes jovens e promissores, que requerem ciclos constantes de atualização e patches de segurança.",
-    "data_criacao": "1970",
-    "link": "https://framework.cavs.com/upgrade/v5.0",
-    "tags": [
-      "Leste",
-      "Central",
-      "Framework Jovem",
+      "Kanto",
+      "Bicho",
+      "Caminho do Bosque",
       "Rápida Evolução"
     ]
   },
   {
-    "nome": "Houston Rockets",
-    "descricao": "Um projeto em fase de 'Rebranding' e reformulação total da arquitetura. Foco na aquisição de novos talentos e migração de componentes legados.",
-    "data_criacao": "1967",
-    "link": "https://rebrand.rockets.com/strategy/migration",
+    "nome": "Metapod",
+    "numero_pokedex": "011",
+    "tipo": "Inseto",
+    "descricao": "Ele endurece sua casca para proteger seu corpo mole, enquanto espera a evolução.",
+    "link": "https://www.pokemon.com/br/pokedex/metapod",
     "tags": [
-      "Oeste",
-      "Sudoeste",
-      "Rebranding",
-      "Migração de Dados"
+      "Kanto",
+      "Casulo",
+      "Defesa",
+      "Espera"
     ]
   },
   {
-    "nome": "Memphis Grizzlies",
-    "descricao": "Focado em Testes Automatizados e qualidade de código. Grande rigor na execução e geração de logs para garantir a performance e identificar falhas rapidamente.",
-    "data_criacao": "1995",
-    "link": "https://testing.grizzlies.com/ci/qualityassurance",
+    "nome": "Butterfree",
+    "numero_pokedex": "012",
+    "tipo": "Inseto / Voador",
+    "descricao": "As asas são cobertas por escamas tóxicas que solta ao bater, criando nuvens de veneno.",
+    "link": "https://www.pokemon.com/br/pokedex/butterfree",
     "tags": [
-      "Oeste",
-      "Sudoeste",
-      "Testes Automatizados",
-      "QA Rigoroso"
+      "Kanto",
+      "Borboleta",
+      "Voador",
+      "Venenoso"
     ]
   },
   {
-    "nome": "Oklahoma City Thunder",
-    "descricao": "A arquitetura de Microserviços. Coleciona inúmeros componentes pequenos (draft picks) que, quando integrados, formam um sistema extremamente poderoso e escalável.",
-    "data_criacao": "2008",
-    "link": "https://microservices.thunder.com/architecture/scaling",
+    "nome": "Weedle",
+    "numero_pokedex": "013",
+    "tipo": "Inseto / Venenoso",
+    "descricao": "Possui uma ponta afiada na cabeça e na cauda que injetam veneno. Ele se esconde em arbustos e grama.",
+    "link": "https://www.pokemon.com/br/pokedex/weedle",
     "tags": [
-      "Oeste",
-      "Noroeste",
-      "Microserviços",
-      "Escalabilidade Horizontal"
+      "Kanto",
+      "Bicho",
+      "Venenoso",
+      "Rápida Evolução"
     ]
   },
   {
-    "nome": "San Antonio Spurs",
-    "descricao": "Conhecido pela metodologia 'Código Limpo' e Refactoring Mínimo. Sistemas com eficiência clássica, pouca redundância e manutenção focada na longevidade.",
-    "data_criacao": "1967",
-    "link": "https://clean.spurs.com/code/efficiency",
+    "nome": "Kakuna",
+    "numero_pokedex": "014",
+    "tipo": "Inseto / Venenoso",
+    "descricao": "Embora inativo, seu corpo está se preparando para a evolução. Quanto mais duro o casulo, mais energia ele está armazenando.",
+    "link": "https://www.pokemon.com/br/pokedex/kakuna",
     "tags": [
-      "Oeste",
-      "Sudoeste",
-      "Código Limpo",
-      "Manutenção"
+      "Kanto",
+      "Casulo",
+      "Venenoso",
+      "Espera"
     ]
   },
   {
-    "nome": "Portland Trail Blazers",
-    "descricao": "Um sistema que entrou em 'Manutenção de Software' intensiva. Foco na otimização de pequenos bugs e na preparação da infraestrutura para o futuro 'deployment'.",
-    "data_criacao": "1970",
-    "link": "https://maintenance.blazers.com/optimization/phase1",
+    "nome": "Beedrill",
+    "numero_pokedex": "015",
+    "tipo": "Inseto / Venenoso",
+    "descricao": "Possui três ferrões venenosos, um em cada braço e um na cauda, que usa em ataques rápidos.",
+    "link": "https://www.pokemon.com/br/pokedex/beedrill",
     "tags": [
-      "Oeste",
-      "Noroeste",
-      "Manutenção",
-      "Otimização"
+      "Kanto",
+      "Vespa",
+      "Venenoso",
+      "Mega Evolução"
     ]
   },
   {
-    "nome": "Orlando Magic",
-    "descricao": "Uma 'Startup em Fase Beta'. Alto potencial não realizado, com muitos recursos disponíveis, mas falta de experiência e consistência na entrega final do produto.",
-    "data_criacao": "1989",
-    "link": "https://beta.magic.com/startup/potential",
+    "nome": "Pidgey",
+    "numero_pokedex": "016",
+    "tipo": "Normal / Voador",
+    "descricao": "Geralmente é encontrado em gramados e florestas. Ele levanta nuvens de areia para se defender.",
+    "link": "https://www.pokemon.com/br/pokedex/pidgey",
     "tags": [
-      "Leste",
-      "Sudeste",
-      "Fase Beta",
-      "Potencial"
+      "Kanto",
+      "Voador",
+      "Normal",
+      "Comum"
     ]
   },
   {
-    "nome": "Washington Wizards",
-    "descricao": "Um sistema com Documentação Desatualizada. A complexidade do código não é refletida nos manuais, levando a resultados imprevisíveis e alto índice de erros de compilação.",
-    "data_criacao": "1961",
-    "link": "https://docs.wizards.com/outdated/manual",
+    "nome": "Pidgeotto",
+    "numero_pokedex": "017",
+    "tipo": "Normal / Voador",
+    "descricao": "É muito territorial, marcando um grande território próprio. Ele persegue predadores impiedosamente.",
+    "link": "https://www.pokemon.com/br/pokedex/pidgeotto",
     "tags": [
-      "Leste",
-      "Sudeste",
-      "Documentação Ruim",
-      "Compilação Falha"
+      "Kanto",
+      "Voador",
+      "Evolução",
+      "Caça"
     ]
   },
   {
-    "nome": "Indiana Pacers",
-    "descricao": "Focado em Integração Contínua e Entrega Contínua (CI/CD). A equipe é confiável, com poucas falhas visíveis e um processo de deployment suave e previsível.",
-    "data_criacao": "1967",
-    "link": "https://ci.pacers.com/deployment/smooth",
+    "nome": "Pidgeot",
+    "numero_pokedex": "018",
+    "tipo": "Normal / Voador",
+    "descricao": "Seu cabelo é muito bonito. Voa em Mach 2 e patrulha seu vasto território.",
+    "link": "https://www.pokemon.com/br/pokedex/pidgeot",
     "tags": [
-      "Leste",
-      "Central",
-      "CI/CD",
-      "Entrega Contínua"
+      "Kanto",
+      "Voador",
+      "Forma Final",
+      "Mega Evolução"
     ]
   },
   {
-    "nome": "Utah Jazz",
-    "descricao": "Atua como um 'Data Lake' - uma vasta coleção de dados (talentos e estatísticas) armazenada em alta altitude (Salt Lake City), usada para análises futuras.",
-    "data_criacao": "1974",
-    "link": "https://datalake.jazz.com/storage/analytics",
+    "nome": "Rattata",
+    "numero_pokedex": "019",
+    "tipo": "Normal",
+    "descricao": "Seus dentes dianteiros crescem continuamente, por isso ele rói qualquer coisa para desgastá-los.",
+    "link": "https://www.pokemon.com/br/pokedex/rattata",
     "tags": [
-      "Oeste",
-      "Noroeste",
-      "Data Lake",
-      "Análise de Dados"
+      "Kanto",
+      "Rato",
+      "Normal",
+      "Encontrado em cavernas"
     ]
   },
   {
-    "nome": "New Orleans Pelicans",
-    "descricao": "Opera como um 'API Gateway'. É o ponto de entrada para talentos exóticos e recursos de alto valor, mas a gestão do tráfego e dos endpoints é complexa.",
-    "data_criacao": "2002",
-    "link": "https://api.pelicans.com/gateway/exotic",
+    "nome": "Raticate",
+    "numero_pokedex": "020",
+    "tipo": "Normal",
+    "descricao": "Sua cauda é longa e forte, dando-lhe grande equilíbrio. É um roedor agressivo.",
+    "link": "https://www.pokemon.com/br/pokedex/raticate",
     "tags": [
-      "Oeste",
-      "Sudoeste",
-      "API Gateway",
-      "Gestão de Tráfego"
+      "Kanto",
+      "Roedor",
+      "Normal",
+      "Agressivo"
     ]
   },
   {
-    "nome": "Los Angeles Clippers",
-    "descricao": "Um projeto 'Multi-Cloud' de alto orçamento. Utiliza redundância e múltiplos sistemas de contingência para garantir o funcionamento, mas o custo operacional é altíssimo.",
-    "data_criacao": "1970",
-    "link": "https://multi.clippers.com/redundancy/highavailability",
+    "nome": "Spearow",
+    "numero_pokedex": "021",
+    "tipo": "Normal / Voador",
+    "descricao": "É um pássaro pequeno, mas muito persistente. Seu voo é baixo e rápido.",
+    "link": "https://www.pokemon.com/br/pokedex/spearow",
     "tags": [
-      "Oeste",
-      "Pacífico",
-      "Multi-Cloud",
-      "High Availability"
+      "Kanto",
+      "Pássaro",
+      "Voador",
+      "Comum"
     ]
   },
   {
-    "nome": "Minnesota Timberwolves",
-    "descricao": "Focado em 'Escalabilidade Vertical'. Tenta resolver problemas adicionando recursos de hardware gigantescos (grandes jogadores) em vez de distribuir a carga de trabalho.",
-    "data_criacao": "1989",
-    "link": "https://scaling.wolves.com/vertical/resources",
+    "nome": "Fearow",
+    "numero_pokedex": "022",
+    "tipo": "Normal / Voador",
+    "descricao": "Tem um bico e pescoço longos. Seus voos duram o dia todo, raramente pousando.",
+    "link": "https://www.pokemon.com/br/pokedex/fearow",
     "tags": [
-      "Oeste",
-      "Noroeste",
-      "Escalabilidade Vertical",
-      "Recursos Intensivos"
+      "Kanto",
+      "Pássaro",
+      "Voador",
+      "Longo Alcance"
     ]
   },
   {
-    "nome": "Sacramento Kings",
-    "descricao": "Exemplo de 'Deployment Após Longo Downtime'. O sistema estava inoperante por anos, mas o novo deployment (o fim da seca dos playoffs) mostrou excelente performance.",
-    "data_criacao": "1923",
-    "link": "https://deployment.kings.com/release/success",
+    "nome": "Ekans",
+    "numero_pokedex": "023",
+    "tipo": "Venenoso",
+    "descricao": "Se move silenciosamente. O som de seu chocalho é o único aviso de seu ataque iminente.",
+    "link": "https://www.pokemon.com/br/pokedex/ekans",
     "tags": [
-      "Oeste",
-      "Pacífico",
-      "Deployment",
-      "Downtime"
+      "Kanto",
+      "Serpente",
+      "Venenoso",
+      "Silencioso"
     ]
   },
   {
-    "nome": "Detroit Pistons",
-    "descricao": "O equivalente a um sistema rodando em 'Hardware Antigo' com alto custo de manutenção. Necessita de um ciclo completo de substituição e modernização da infraestrutura.",
-    "data_criacao": "1941",
-    "link": "https://hardware.pistons.com/legacy/upgrade",
+    "nome": "Arbok",
+    "numero_pokedex": "024",
+    "tipo": "Venenoso",
+    "descricao": "A marca assustadora em seu capuz pode ter até seis variações, dependendo da região.",
+    "link": "https://www.pokemon.com/br/pokedex/arbok",
     "tags": [
-      "Leste",
-      "Central",
-      "Hardware Legado",
-      "Infraestrutura"
+      "Kanto",
+      "Cobra",
+      "Venenoso",
+      "Assustador"
     ]
   },
   {
-    "nome": "Charlotte Hornets",
-    "descricao": "Um projeto focado em 'Frontend Moderno'. Design chamativo e talentos jovens, mas a integração com o backend (os resultados) ainda precisa de estabilidade.",
-    "data_criacao": "1988",
-    "link": "https://frontend.hornets.com/react/design",
+    "nome": "Pikachu",
+    "numero_pokedex": "025",
+    "tipo": "Elétrico",
+    "descricao": "Armazena eletricidade nas bolsas de suas bochechas. Quando irritado, libera raios de energia.",
+    "link": "https://www.pokemon.com/br/pokedex/pikachu",
     "tags": [
-      "Leste",
-      "Sudeste",
-      "Frontend",
-      "Design Responsivo"
+      "Kanto",
+      "Elétrico",
+      "Roedor",
+      "Mascote"
+    ]
+  },
+  {
+    "nome": "Raichu",
+    "numero_pokedex": "026",
+    "tipo": "Elétrico",
+    "descricao": "Sua cauda atua como um fio terra, protegendo-o de sua própria alta voltagem.",
+    "link": "https://www.pokemon.com/br/pokedex/raichu",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Cauda",
+      "Poderoso"
+    ]
+  },
+  {
+    "nome": "Sandshrew",
+    "numero_pokedex": "027",
+    "tipo": "Terrestre",
+    "descricao": "Gosta de secar na areia. Quando ameaçado, ele se enrola em uma bola para se proteger.",
+    "link": "https://www.pokemon.com/br/pokedex/sandshrew",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Deserto",
+      "Defensivo"
+    ]
+  },
+  {
+    "nome": "Sandslash",
+    "numero_pokedex": "028",
+    "tipo": "Terrestre",
+    "descricao": "Suas garras longas e afiadas o ajudam a cavar rapidamente e a escalar árvores.",
+    "link": "https://www.pokemon.com/br/pokedex/sandslash",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Garras",
+      "Caverna"
+    ]
+  },
+  {
+    "nome": "Nidoran♀",
+    "numero_pokedex": "029",
+    "tipo": "Venenoso",
+    "descricao": "Seus chifres pequenos injetam veneno poderoso. É um Pokémon mais calmo que sua contraparte masculina.",
+    "link": "https://www.pokemon.com/br/pokedex/nidoran-f",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Fêmea",
+      "Chifre"
+    ]
+  },
+  {
+    "nome": "Nidorina",
+    "numero_pokedex": "030",
+    "tipo": "Venenoso",
+    "descricao": "Tem um olfato apurado, capaz de cheirar a localização de Pokémon, frutas e plantas em longas distâncias.",
+    "link": "https://www.pokemon.com/br/pokedex/nidorina",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Evolução",
+      "Olfato"
+    ]
+  },
+  {
+    "nome": "Nidoqueen",
+    "numero_pokedex": "031",
+    "tipo": "Venenoso / Terrestre",
+    "descricao": "A Nidoqueen tem um corpo blindado e forte, protegendo seus filhotes com toda a sua vida.",
+    "link": "https://www.pokemon.com/br/pokedex/nidoqueen",
+    "tags": [
+      "Kanto",
+      "Rainha",
+      "Venenoso",
+      "Guardiã"
+    ]
+  },
+  {
+    "nome": "Nidoran♂",
+    "numero_pokedex": "032",
+    "tipo": "Venenoso",
+    "descricao": "Suas orelhas grandes podem captar sons distantes. Seu veneno é mais potente do que o da fêmea.",
+    "link": "https://www.pokemon.com/br/pokedex/nidoran-m",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Macho",
+      "Chifre"
+    ]
+  },
+  {
+    "nome": "Nidorino",
+    "numero_pokedex": "033",
+    "tipo": "Venenoso",
+    "descricao": "É agressivo e facilmente irritável. Seus chifres crescem rapidamente e são mais venenosos.",
+    "link": "https://www.pokemon.com/br/pokedex/nidorino",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Evolução",
+      "Agressivo"
+    ]
+  },
+  {
+    "nome": "Nidoking",
+    "numero_pokedex": "034",
+    "tipo": "Venenoso / Terrestre",
+    "descricao": "Sua cauda poderosa pode esmagar torres de metal. É conhecido por ser violento e destrutivo.",
+    "link": "https://www.pokemon.com/br/pokedex/nidoking",
+    "tags": [
+      "Kanto",
+      "Rei",
+      "Venenoso",
+      "Cauda"
+    ]
+  },
+  {
+    "nome": "Clefairy",
+    "numero_pokedex": "035",
+    "tipo": "Fada",
+    "descricao": "É um Pokémon raro que se reúne em grupos para dançar sob a luz da lua cheia.",
+    "link": "https://www.pokemon.com/br/pokedex/clefairy",
+    "tags": [
+      "Kanto",
+      "Fada",
+      "Lunar",
+      "Raro"
+    ]
+  },
+  {
+    "nome": "Clefable",
+    "numero_pokedex": "036",
+    "tipo": "Fada",
+    "descricao": "Anda flutuando levemente, como se tivesse pulado na lua. Sua audição é tão boa que pode ouvir um alfinete caindo a 1 km de distância.",
+    "link": "https://www.pokemon.com/br/pokedex/clefable",
+    "tags": [
+      "Kanto",
+      "Fada",
+      "Lunar",
+      "Audição Aguçada"
+    ]
+  },
+  {
+    "nome": "Vulpix",
+    "numero_pokedex": "037",
+    "tipo": "Fogo",
+    "descricao": "Quando jovem, tem seis caudas brancas. À medida que cresce, as caudas se dividem e ficam mais escuras.",
+    "link": "https://www.pokemon.com/br/pokedex/vulpix",
+    "tags": [
+      "Kanto",
+      "Fogo",
+      "Raposa",
+      "Elegante"
+    ]
+  },
+  {
+    "nome": "Ninetales",
+    "numero_pokedex": "038",
+    "tipo": "Fogo",
+    "descricao": "Suas nove caudas possuem poderes místicos. Diz-se que vive por mil anos e que amaldiçoa aqueles que o agarram.",
+    "link": "https://www.pokemon.com/br/pokedex/ninetales",
+    "tags": [
+      "Kanto",
+      "Místico",
+      "Longevo",
+      "Lenda"
+    ]
+  },
+  {
+    "nome": "Jigglypuff",
+    "numero_pokedex": "039",
+    "tipo": "Normal / Fada",
+    "descricao": "Possui cordas vocais que podem ajustar livremente o comprimento de onda de sua voz, induzindo oponentes a um sono profundo.",
+    "link": "https://www.pokemon.com/br/pokedex/jigglypuff",
+    "tags": [
+      "Kanto",
+      "Canção",
+      "Dormir",
+      "Normal"
+    ]
+  },
+  {
+    "nome": "Wigglytuff",
+    "numero_pokedex": "040",
+    "tipo": "Normal / Fada",
+    "descricao": "Tem um pelo elástico e fofo. É muito sensível e se sente solitário se não estiver com seus treinadores.",
+    "link": "https://www.pokemon.com/br/pokedex/wigglytuff",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Elástico",
+      "Carente"
+    ]
+  },
+  {
+    "nome": "Zubat",
+    "numero_pokedex": "041",
+    "tipo": "Venenoso / Voador",
+    "descricao": "Não tem olhos. Emite ondas ultrassônicas pela boca para navegar no escuro das cavernas.",
+    "link": "https://www.pokemon.com/br/pokedex/zubat",
+    "tags": [
+      "Kanto",
+      "Voador",
+      "Venenoso",
+      "Caverna"
+    ]
+  },
+  {
+    "nome": "Golbat",
+    "numero_pokedex": "042",
+    "tipo": "Venenoso / Voador",
+    "descricao": "Bebe o sangue de outras criaturas, usando presas que se encaixam perfeitamente nos seus orifícios nasais.",
+    "link": "https://www.pokemon.com/br/pokedex/golbat",
+    "tags": [
+      "Kanto",
+      "Morcego",
+      "Venenoso",
+      "Sanguessuga"
+    ]
+  },
+  {
+    "nome": "Oddish",
+    "numero_pokedex": "043",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Durante o dia, ele se enterra na terra para absorver nutrientes. A luz do luar o faz crescer.",
+    "link": "https://www.pokemon.com/br/pokedex/oddish",
+    "tags": [
+      "Kanto",
+      "Grama",
+      "Venenoso",
+      "Noturno"
+    ]
+  },
+  {
+    "nome": "Gloom",
+    "numero_pokedex": "044",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Seu pólen cheira tão mal que pode fazer um nariz entupido sentir náuseas. Às vezes o solta em ataques.",
+    "link": "https://www.pokemon.com/br/pokedex/gloom",
+    "tags": [
+      "Kanto",
+      "Mau Cheiro",
+      "Venenoso",
+      "Evolução"
+    ]
+  },
+  {
+    "nome": "Vileplume",
+    "numero_pokedex": "045",
+    "tipo": "Planta / Venenoso",
+    "descricao": "As maiores pétalas do mundo se espalham de sua cabeça. Elas expelem pólen tóxico em nuvens amarelas.",
+    "link": "https://www.pokemon.com/br/pokedex/vileplume",
+    "tags": [
+      "Kanto",
+      "Flor",
+      "Venenoso",
+      "Pólen"
+    ]
+  },
+  {
+    "nome": "Paras",
+    "numero_pokedex": "046",
+    "tipo": "Inseto / Planta",
+    "descricao": "Um cogumelo parasita chamado *Tochukaso* cresce em suas costas, retirando nutrientes do inseto.",
+    "link": "https://www.pokemon.com/br/pokedex/paras",
+    "tags": [
+      "Kanto",
+      "Bicho",
+      "Cogumelo",
+      "Parasita"
+    ]
+  },
+  {
+    "nome": "Parasect",
+    "numero_pokedex": "047",
+    "tipo": "Inseto / Planta",
+    "descricao": "O cogumelo nas suas costas tomou conta do hospedeiro, controlando seus movimentos.",
+    "link": "https://www.pokemon.com/br/pokedex/parasect",
+    "tags": [
+      "Kanto",
+      "Controle Mental",
+      "Cogumelo",
+      "Zumbi"
+    ]
+  },
+  {
+    "nome": "Venonat",
+    "numero_pokedex": "048",
+    "tipo": "Inseto / Venenoso",
+    "descricao": "Seus olhos são como radares, capazes de detectar presas mesmo na escuridão total.",
+    "link": "https://www.pokemon.com/br/pokedex/venonat",
+    "tags": [
+      "Kanto",
+      "Inseto",
+      "Venenoso",
+      "Radar"
+    ]
+  },
+  {
+    "nome": "Venomoth",
+    "numero_pokedex": "049",
+    "tipo": "Inseto / Venenoso",
+    "descricao": "Voa à noite em busca de presas, polvilhando escamas tóxicas de suas asas.",
+    "link": "https://www.pokemon.com/br/pokedex/venomoth",
+    "tags": [
+      "Kanto",
+      "Mariposa",
+      "Venenoso",
+      "Noturno"
+    ]
+  },
+  {
+    "nome": "Diglett",
+    "numero_pokedex": "050",
+    "tipo": "Terrestre",
+    "descricao": "Passa a maior parte da vida enterrado. É raro ver sua cabeça acima do solo.",
+    "link": "https://www.pokemon.com/br/pokedex/diglett",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Toupeira",
+      "Túnel"
+    ]
+  },
+  {
+    "nome": "Dugtrio",
+    "numero_pokedex": "051",
+    "tipo": "Terrestre",
+    "descricao": "Um grupo de três Diglett. Seus movimentos sincronizados criam terremotos.",
+    "link": "https://www.pokemon.com/br/pokedex/dugtrio",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Trio",
+      "Sincronizado"
+    ]
+  },
+  {
+    "nome": "Meowth",
+    "numero_pokedex": "052",
+    "tipo": "Normal",
+    "descricao": "É atraído por objetos redondos e brilhantes. Vive perambulando pelas cidades à noite.",
+    "link": "https://www.pokemon.com/br/pokedex/meowth",
+    "tags": [
+      "Kanto",
+      "Gato",
+      "Normal",
+      "Moeda"
+    ]
+  },
+  {
+    "nome": "Persian",
+    "numero_pokedex": "053",
+    "tipo": "Normal",
+    "descricao": "A joia em sua testa é um símbolo de seu status social. É um Pokémon elegante, mas com um temperamento difícil.",
+    "link": "https://www.pokemon.com/br/pokedex/persian",
+    "tags": [
+      "Kanto",
+      "Gato",
+      "Elegante",
+      "Temperamental"
+    ]
+  },
+  {
+    "nome": "Psyduck",
+    "numero_pokedex": "054",
+    "tipo": "Água",
+    "descricao": "Sofre constantemente de fortes dores de cabeça. Quando a dor se torna insuportável, ele libera poderes psíquicos.",
+    "link": "https://www.pokemon.com/br/pokedex/psyduck",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Psíquico",
+      "Dor de Cabeça"
+    ]
+  },
+  {
+    "nome": "Golduck",
+    "numero_pokedex": "055",
+    "tipo": "Água",
+    "descricao": "É um nadador rápido e elegante, frequentemente confundido com a lenda japonesa do Kappa.",
+    "link": "https://www.pokemon.com/br/pokedex/golduck",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Nadador",
+      "Kappa"
+    ]
+  },
+  {
+    "nome": "Mankey",
+    "numero_pokedex": "056",
+    "tipo": "Lutador",
+    "descricao": "É facilmente enfurecido e, uma vez provocado, pode persegui-lo por quilômetros. Vive no topo das árvores.",
+    "link": "https://www.pokemon.com/br/pokedex/mankey",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Macaco",
+      "Raivoso"
+    ]
+  },
+  {
+    "nome": "Primeape",
+    "numero_pokedex": "057",
+    "tipo": "Lutador",
+    "descricao": "Sua raiva faz com que seu sangue circule rapidamente. É perigoso, pois pode lutar sem pensar nas consequências.",
+    "link": "https://www.pokemon.com/br/pokedex/primeape",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Agressivo",
+      "Fúria"
+    ]
+  },
+  {
+    "nome": "Growlithe",
+    "numero_pokedex": "058",
+    "tipo": "Fogo",
+    "descricao": "Um Pokémon leal e corajoso. Ele late ameaçadoramente para intimidar qualquer um que se aproxime do seu território.",
+    "link": "https://www.pokemon.com/br/pokedex/growlithe",
+    "tags": [
+      "Kanto",
+      "Fogo",
+      "Cão",
+      "Leal"
+    ]
+  },
+  {
+    "nome": "Arcanine",
+    "numero_pokedex": "059",
+    "tipo": "Fogo",
+    "descricao": "É reverenciado por sua velocidade e majestade. Diz-se que corre 10.000 km em 24 horas.",
+    "link": "https://www.pokemon.com/br/pokedex/arcanine",
+    "tags": [
+      "Kanto",
+      "Lendário",
+      "Veloz",
+      "Majestoso"
+    ]
+  },
+  {
+    "nome": "Poliwag",
+    "numero_pokedex": "060",
+    "tipo": "Água",
+    "descricao": "Sua pele é fina e molhada. A espiral em sua barriga se move lentamente e pode ser vista através da pele.",
+    "link": "https://www.pokemon.com/br/pokedex/poliwag",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Giro",
+      "Girino"
+    ]
+  },
+  {
+    "nome": "Poliwhirl",
+    "numero_pokedex": "061",
+    "tipo": "Água",
+    "descricao": "Sua pele é escorregadia. Para evitar ser visto, ele pode se enterrar no fundo de rios.",
+    "link": "https://www.pokemon.com/br/pokedex/poliwhirl",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Evolução",
+      "Escorregadio"
+    ]
+  },
+  {
+    "nome": "Poliwrath",
+    "numero_pokedex": "062",
+    "tipo": "Água / Lutador",
+    "descricao": "Um nadador excelente, capaz de nadar longas distâncias sem se cansar. É um mestre em karatê.",
+    "link": "https://www.pokemon.com/br/pokedex/poliwrath",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Lutador",
+      "Natação"
+    ]
+  },
+  {
+    "nome": "Abra",
+    "numero_pokedex": "063",
+    "tipo": "Psíquico",
+    "descricao": "Dorme 18 horas por dia. Se for perturbado, ele se teletransporta para um local seguro antes de acordar.",
+    "link": "https://www.pokemon.com/br/pokedex/abra",
+    "tags": [
+      "Kanto",
+      "Psíquico",
+      "Sono",
+      "Teletransporte"
+    ]
+  },
+  {
+    "nome": "Kadabra",
+    "numero_pokedex": "064",
+    "tipo": "Psíquico",
+    "descricao": "Emite ondas alfa. Se alguém estiver por perto, a onda cria uma dor de cabeça e pode até fazê-lo se sentir mal.",
+    "link": "https://www.pokemon.com/br/pokedex/kadabra",
+    "tags": [
+      "Kanto",
+      "Psíquico",
+      "Colher",
+      "Ondas Alfa"
+    ]
+  },
+  {
+    "nome": "Alakazam",
+    "numero_pokedex": "065",
+    "tipo": "Psíquico",
+    "descricao": "Seu cérebro nunca para de crescer. Dizem que seu QI é de 5.000, e ele se lembra de tudo.",
+    "link": "https://www.pokemon.com/br/pokedex/alakazam",
+    "tags": [
+      "Kanto",
+      "Psíquico",
+      "QI Alto",
+      "Inteligente"
+    ]
+  },
+  {
+    "nome": "Machop",
+    "numero_pokedex": "066",
+    "tipo": "Lutador",
+    "descricao": "Pode levantar um humano com uma mão. Gosta de treinar em montanhas para fortalecer seus músculos.",
+    "link": "https://www.pokemon.com/br/pokedex/machop",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Força",
+      "Treinamento"
+    ]
+  },
+  {
+    "nome": "Machoke",
+    "numero_pokedex": "067",
+    "tipo": "Lutador",
+    "descricao": "Seus músculos são duros como aço. Usa um cinto para controlar seu poder avassalador.",
+    "link": "https://www.pokemon.com/br/pokedex/machoke",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Musculoso",
+      "Cinto"
+    ]
+  },
+  {
+    "nome": "Machamp",
+    "numero_pokedex": "068",
+    "tipo": "Lutador",
+    "descricao": "Com seus quatro braços, pode desferir um milhar de socos em dois segundos. É incrivelmente poderoso.",
+    "link": "https://www.pokemon.com/br/pokedex/machamp",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Quatro Braços",
+      "Poder Extremo"
+    ]
+  },
+  {
+    "nome": "Bellsprout",
+    "numero_pokedex": "069",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Seu corpo fino é flexível. Ele se move balançando de um lado para o outro para evitar ataques.",
+    "link": "https://www.pokemon.com/br/pokedex/bellsprout",
+    "tags": [
+      "Kanto",
+      "Grama",
+      "Venenoso",
+      "Flexível"
+    ]
+  },
+  {
+    "nome": "Weepinbell",
+    "numero_pokedex": "070",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Ele se pendura em árvores usando o gancho na cauda. Engole suas presas inteiras, dissolvendo-as com ácido.",
+    "link": "https://www.pokemon.com/br/pokedex/weepinbell",
+    "tags": [
+      "Kanto",
+      "Grama",
+      "Venenoso",
+      "Ácido"
+    ]
+  },
+  {
+    "nome": "Victreebel",
+    "numero_pokedex": "071",
+    "tipo": "Planta / Venenoso",
+    "descricao": "Sua boca grande está sempre gotejando um néctar com aroma doce que atrai e dissolve a presa.",
+    "link": "https://www.pokemon.com/br/pokedex/victreebel",
+    "tags": [
+      "Kanto",
+      "Carnívoro",
+      "Venenoso",
+      "Néctar"
+    ]
+  },
+  {
+    "nome": "Tentacool",
+    "numero_pokedex": "072",
+    "tipo": "Água / Venenoso",
+    "descricao": "Oitenta por cento de seu corpo é água. Seus tentáculos são usados para atacar com veneno.",
+    "link": "https://www.pokemon.com/br/pokedex/tentacool",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Venenoso",
+      "Oceano"
+    ]
+  },
+  {
+    "nome": "Tentacruel",
+    "numero_pokedex": "073",
+    "tipo": "Água / Venenoso",
+    "descricao": "Possui 80 tentáculos que podem se estender. Vivem em grandes colônias no fundo do oceano.",
+    "link": "https://www.pokemon.com/br/pokedex/tentacruel",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Venenoso",
+      "Colônia"
+    ]
+  },
+  {
+    "nome": "Geodude",
+    "numero_pokedex": "074",
+    "tipo": "Pedra / Terrestre",
+    "descricao": "É frequentemente encontrado em campos e montanhas. Adora rochas e pode se disfarçar em pilhas de pedras.",
+    "link": "https://www.pokemon.com/br/pokedex/geodude",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Terra",
+      "Montanha"
+    ]
+  },
+  {
+    "nome": "Graveler",
+    "numero_pokedex": "075",
+    "tipo": "Pedra / Terrestre",
+    "descricao": "Se move rolando pelas montanhas, ignorando o perigo. É perigoso estar perto quando ele está se movendo.",
+    "link": "https://www.pokemon.com/br/pokedex/graveler",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Rolamento",
+      "Evolução"
+    ]
+  },
+  {
+    "nome": "Golem",
+    "numero_pokedex": "076",
+    "tipo": "Pedra / Terrestre",
+    "descricao": "Para se mover rapidamente, ele puxa a cabeça para dentro de sua casca e rola. Pode explodir se for perturbado.",
+    "link": "https://www.pokemon.com/br/pokedex/golem",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Montanha",
+      "Explosão"
+    ]
+  },
+  {
+    "nome": "Ponyta",
+    "numero_pokedex": "077",
+    "tipo": "Fogo",
+    "descricao": "Seu galope pode ser ouvido a longas distâncias. Sua crina é feita de chamas que não queimam quem tem um coração puro.",
+    "link": "https://www.pokemon.com/br/pokedex/ponyta",
+    "tags": [
+      "Kanto",
+      "Fogo",
+      "Pônei",
+      "Velocidade"
+    ]
+  },
+  {
+    "nome": "Rapidash",
+    "numero_pokedex": "078",
+    "tipo": "Fogo",
+    "descricao": "Pode correr a 240 km/h. É um Pokémon orgulhoso que não permite que estranhos o montem.",
+    "link": "https://www.pokemon.com/br/pokedex/rapidash",
+    "tags": [
+      "Kanto",
+      "Fogo",
+      "Orgulho",
+      "Velocidade Extrema"
+    ]
+  },
+  {
+    "nome": "Slowpoke",
+    "numero_pokedex": "079",
+    "tipo": "Água / Psíquico",
+    "descricao": "É incrivelmente lento e precisa de 5 segundos para sentir dor. Ele pesca usando a cauda.",
+    "link": "https://www.pokemon.com/br/pokedex/slowpoke",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Psíquico",
+      "Lento"
+    ]
+  },
+  {
+    "nome": "Slowbro",
+    "numero_pokedex": "080",
+    "tipo": "Água / Psíquico",
+    "descricao": "Evolui quando um Shellder morde sua cauda. A mordida estimula o cérebro, dando-lhe poderes psíquicos.",
+    "link": "https://www.pokemon.com/br/pokedex/slowbro",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Psíquico",
+      "Caranguejo"
+    ]
+  },
+  {
+    "nome": "Magnemite",
+    "numero_pokedex": "081",
+    "tipo": "Elétrico / Aço",
+    "descricao": "Sempre é encontrado perto de fontes de eletricidade. Os ímãs em seus lados geram um forte campo magnético.",
+    "link": "https://www.pokemon.com/br/pokedex/magnemite",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Metal",
+      "Ímã"
+    ]
+  },
+  {
+    "nome": "Magneton",
+    "numero_pokedex": "082",
+    "tipo": "Elétrico / Aço",
+    "descricao": "Três Magnemite se combinam e geram poderosos campos magnéticos que podem causar interferência.",
+    "link": "https://www.pokemon.com/br/pokedex/magneton",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Metal",
+      "Combinação"
+    ]
+  },
+  {
+    "nome": "Farfetch'd",
+    "numero_pokedex": "083",
+    "tipo": "Normal / Voador",
+    "descricao": "Sempre é visto carregando um talo de planta, que ele usa como arma, ninho e, às vezes, como alimento.",
+    "link": "https://www.pokemon.com/br/pokedex/farfetchd",
+    "tags": [
+      "Kanto",
+      "Pássaro",
+      "Voador",
+      "Talo"
+    ]
+  },
+  {
+    "nome": "Doduo",
+    "numero_pokedex": "084",
+    "tipo": "Normal / Voador",
+    "descricao": "Um Pokémon com duas cabeças. A cabeça pode se revezar para dormir enquanto a outra se mantém vigilante.",
+    "link": "https://www.pokemon.com/br/pokedex/doduo",
+    "tags": [
+      "Kanto",
+      "Duas Cabeças",
+      "Voador",
+      "Normal"
+    ]
+  },
+  {
+    "nome": "Dodrio",
+    "numero_pokedex": "085",
+    "tipo": "Normal / Voador",
+    "descricao": "Três cabeças representam alegria, tristeza e raiva. Pode correr a 100 km/h, deixando o chão tremer.",
+    "link": "https://www.pokemon.com/br/pokedex/dodrio",
+    "tags": [
+      "Kanto",
+      "Três Cabeças",
+      "Voador",
+      "Veloz"
+    ]
+  },
+  {
+    "nome": "Seel",
+    "numero_pokedex": "086",
+    "tipo": "Água",
+    "descricao": "É coberto por uma pele grossa que o protege no gelo. Quando está na água, usa o chifre para quebrar o gelo.",
+    "link": "https://www.pokemon.com/br/pokedex/seel",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Foca",
+      "Gelo"
+    ]
+  },
+  {
+    "nome": "Dewgong",
+    "numero_pokedex": "087",
+    "tipo": "Água / Gelo",
+    "descricao": "É o mestre do gelo. Sua cauda lhe permite nadar a 8 nós, mesmo em águas geladas.",
+    "link": "https://www.pokemon.com/br/pokedex/dewgong",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Gelo",
+      "Oceano"
+    ]
+  },
+  {
+    "nome": "Grimer",
+    "numero_pokedex": "088",
+    "tipo": "Venenoso",
+    "descricao": "Nasceu da lama poluída do esgoto. Seu corpo é composto de lodo tóxico.",
+    "link": "https://www.pokemon.com/br/pokedex/grimer",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Lodo",
+      "Poluído"
+    ]
+  },
+  {
+    "nome": "Muk",
+    "numero_pokedex": "089",
+    "tipo": "Venenoso",
+    "descricao": "Um lodo tóxico e fedorento. Seu cheiro é tão horrível que pode causar desmaios.",
+    "link": "https://www.pokemon.com/br/pokedex/muk",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Cheiro Horrível",
+      "Tóxico"
+    ]
+  },
+  {
+    "nome": "Shellder",
+    "numero_pokedex": "090",
+    "tipo": "Água",
+    "descricao": "Sua concha é mais dura que diamante. Ela só se abre quando o Pokémon está caçando.",
+    "link": "https://www.pokemon.com/br/pokedex/shellder",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Concha",
+      "Defesa"
+    ]
+  },
+  {
+    "nome": "Cloyster",
+    "numero_pokedex": "091",
+    "tipo": "Água / Gelo",
+    "descricao": "Sua concha é impenetrável. Lança espinhos em rápida sucessão para atacar.",
+    "link": "https://www.pokemon.com/br/pokedex/cloyster",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Gelo",
+      "Impenetrável"
+    ]
+  },
+  {
+    "nome": "Gastly",
+    "numero_pokedex": "092",
+    "tipo": "Fantasma / Venenoso",
+    "descricao": "Quase totalmente composto de gás venenoso, pode envolver um elefante e sufocá-lo em segundos.",
+    "link": "https://www.pokemon.com/br/pokedex/gastly",
+    "tags": [
+      "Kanto",
+      "Fantasma",
+      "Venenoso",
+      "Gás"
+    ]
+  },
+  {
+    "nome": "Haunter",
+    "numero_pokedex": "093",
+    "tipo": "Fantasma / Venenoso",
+    "descricao": "Flutua no escuro e usa sua língua gasosa para lamber as vítimas, roubando sua força vital.",
+    "link": "https://www.pokemon.com/br/pokedex/haunter",
+    "tags": [
+      "Kanto",
+      "Fantasma",
+      "Venenoso",
+      "Língua"
+    ]
+  },
+  {
+    "nome": "Gengar",
+    "numero_pokedex": "094",
+    "tipo": "Fantasma / Venenoso",
+    "descricao": "Gosta de assustar as pessoas. Ele se esconde nas sombras e ri dos medos dos outros.",
+    "link": "https://www.pokemon.com/br/pokedex/gengar",
+    "tags": [
+      "Kanto",
+      "Fantasma",
+      "Venenoso",
+      "Sombra"
+    ]
+  },
+  {
+    "nome": "Onix",
+    "numero_pokedex": "095",
+    "tipo": "Pedra / Terrestre",
+    "descricao": "Vive em túneis subterrâneos. À medida que envelhece, seu corpo de rochas endurece, tornando-se preto e liso.",
+    "link": "https://www.pokemon.com/br/pokedex/onix",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Terra",
+      "Grande"
+    ]
+  },
+  {
+    "nome": "Drowzee",
+    "numero_pokedex": "096",
+    "tipo": "Psíquico",
+    "descricao": "Drowzee se alimenta dos sonhos das pessoas. Se você tiver um sonho ruim, ele está por perto.",
+    "link": "https://www.pokemon.com/br/pokedex/drowzee",
+    "tags": [
+      "Kanto",
+      "Psíquico",
+      "Sonhos",
+      "Comedor de Sonhos"
+    ]
+  },
+  {
+    "nome": "Hypno",
+    "numero_pokedex": "097",
+    "tipo": "Psíquico",
+    "descricao": "Usa um pêndulo para hipnotizar suas vítimas. Às vezes, ele os leva para lugares desconhecidos.",
+    "link": "https://www.pokemon.com/br/pokedex/hypno",
+    "tags": [
+      "Kanto",
+      "Psíquico",
+      "Hipnose",
+      "Pêndulo"
+    ]
+  },
+  {
+    "nome": "Krabby",
+    "numero_pokedex": "098",
+    "tipo": "Água",
+    "descricao": "Vive enterrado na areia de praias. Se perder uma garra na batalha, ela cresce rapidamente.",
+    "link": "https://www.pokemon.com/br/pokedex/krabby",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Caranguejo",
+      "Praia"
+    ]
+  },
+  {
+    "nome": "Kingler",
+    "numero_pokedex": "099",
+    "tipo": "Água",
+    "descricao": "Sua garra é capaz de esmagar oponentes. Possui 10.000 cavalos de força.",
+    "link": "https://www.pokemon.com/br/pokedex/kingler",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Caranguejo",
+      "Garra Poderosa"
+    ]
+  },
+  {
+    "nome": "Voltorb",
+    "numero_pokedex": "100",
+    "tipo": "Elétrico",
+    "descricao": "É frequentemente confundido com uma Pokébola. Acumula energia elétrica e explode facilmente.",
+    "link": "https://www.pokemon.com/br/pokedex/voltorb",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Explosivo",
+      "Perigoso"
+    ]
+  },
+  {
+    "nome": "Electrode",
+    "numero_pokedex": "101",
+    "tipo": "Elétrico",
+    "descricao": "Pode explodir ao menor choque. É um dos Pokémon mais rápidos que existem.",
+    "link": "https://www.pokemon.com/br/pokedex/electrode",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Veloz",
+      "Reativo"
+    ]
+  },
+  {
+    "nome": "Exeggcute",
+    "numero_pokedex": "102",
+    "tipo": "Planta / Psíquico",
+    "descricao": "Seis ovos de Pokémon que se unem. Eles se comunicam por telepatia e se reconstituem se separados.",
+    "link": "https://www.pokemon.com/br/pokedex/exeggcute",
+    "tags": [
+      "Kanto",
+      "Grama",
+      "Psíquico",
+      "Ovos"
+    ]
+  },
+  {
+    "nome": "Exeggutor",
+    "numero_pokedex": "103",
+    "tipo": "Planta / Psíquico",
+    "descricao": "Suas três cabeças pensam de forma independente. Cada cabeça tem uma expressão diferente.",
+    "link": "https://www.pokemon.com/br/pokedex/exeggutor",
+    "tags": [
+      "Kanto",
+      "Grama",
+      "Psíquico",
+      "Palmeira"
+    ]
+  },
+  {
+    "nome": "Cubone",
+    "numero_pokedex": "104",
+    "tipo": "Terrestre",
+    "descricao": "Sempre usa o crânio de sua mãe falecida como capacete. Suas lágrimas ecoam dentro do osso.",
+    "link": "https://www.pokemon.com/br/pokedex/cubone",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Tristeza",
+      "Crânio"
+    ]
+  },
+  {
+    "nome": "Marowak",
+    "numero_pokedex": "105",
+    "tipo": "Terrestre",
+    "descricao": "Dominou o uso do osso que carrega. É agressivo e altamente protetor de seu território.",
+    "link": "https://www.pokemon.com/br/pokedex/marowak",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Osso",
+      "Agilidade"
+    ]
+  },
+  {
+    "nome": "Hitmonlee",
+    "numero_pokedex": "106",
+    "tipo": "Lutador",
+    "descricao": "Suas pernas elásticas podem se esticar e contrair. Seus chutes são devastadores.",
+    "link": "https://www.pokemon.com/br/pokedex/hitmonlee",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Chute",
+      "Elástico"
+    ]
+  },
+  {
+    "nome": "Hitmonchan",
+    "numero_pokedex": "107",
+    "tipo": "Lutador",
+    "descricao": "Seus socos são mais rápidos que uma bala. Ele luta com o espírito de um boxeador profissional.",
+    "link": "https://www.pokemon.com/br/pokedex/hitmonchan",
+    "tags": [
+      "Kanto",
+      "Lutador",
+      "Boxeador",
+      "Soco Rápido"
+    ]
+  },
+  {
+    "nome": "Lickitung",
+    "numero_pokedex": "108",
+    "tipo": "Normal",
+    "descricao": "Sua língua é longa e pegajosa, usada para limpar, explorar objetos e lutar. É maior que seu corpo.",
+    "link": "https://www.pokemon.com/br/pokedex/lickitung",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Língua",
+      "Pegajoso"
+    ]
+  },
+  {
+    "nome": "Koffing",
+    "numero_pokedex": "109",
+    "tipo": "Venenoso",
+    "descricao": "O gás que ele expele é fedorento e inflamável. Flutua no ar coletando toxinas.",
+    "link": "https://www.pokemon.com/br/pokedex/koffing",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Gás",
+      "Flutuante"
+    ]
+  },
+  {
+    "nome": "Weezing",
+    "numero_pokedex": "110",
+    "tipo": "Venenoso",
+    "descricao": "Dois gases se juntaram para formar este Pokémon. Cada cabeça tem suas próprias toxinas.",
+    "link": "https://www.pokemon.com/br/pokedex/weezing",
+    "tags": [
+      "Kanto",
+      "Venenoso",
+      "Gás",
+      "Dupla"
+    ]
+  },
+  {
+    "nome": "Rhyhorn",
+    "numero_pokedex": "111",
+    "tipo": "Terrestre / Pedra",
+    "descricao": "Sua pele é dura como uma pedra. Embora seja rápido em uma investida, é lento ao virar.",
+    "link": "https://www.pokemon.com/br/pokedex/rhyhorn",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Rocha",
+      "Investida"
+    ]
+  },
+  {
+    "nome": "Rhydon",
+    "numero_pokedex": "112",
+    "tipo": "Terrestre / Pedra",
+    "descricao": "Pode resistir a ataques com balas de canhão. Seu chifre pode furar um diamante.",
+    "link": "https://www.pokemon.com/br/pokedex/rhydon",
+    "tags": [
+      "Kanto",
+      "Terra",
+      "Rocha",
+      "Forte"
+    ]
+  },
+  {
+    "nome": "Chansey",
+    "numero_pokedex": "113",
+    "tipo": "Normal",
+    "descricao": "Carrega um ovo nutritivo. É um Pokémon raro e gentil que compartilha seu ovo com pessoas feridas.",
+    "link": "https://www.pokemon.com/br/pokedex/chansey",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Ovo",
+      "Raro"
+    ]
+  },
+  {
+    "nome": "Tangela",
+    "numero_pokedex": "114",
+    "tipo": "Planta",
+    "descricao": "Seu corpo é totalmente coberto por vinhas azuis. Se uma vinha for cortada, ela cresce de volta instantaneamente.",
+    "link": "https://www.pokemon.com/br/pokedex/tangela",
+    "tags": [
+      "Kanto",
+      "Grama",
+      "Vinha",
+      "Mistério"
+    ]
+  },
+  {
+    "nome": "Kangaskhan",
+    "numero_pokedex": "115",
+    "tipo": "Normal",
+    "descricao": "Carrega seu filhote na bolsa de sua barriga. Ataca ferozmente qualquer coisa que ameace o bebê.",
+    "link": "https://www.pokemon.com/br/pokedex/kangaskhan",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Mãe",
+      "Protetora"
+    ]
+  },
+  {
+    "nome": "Horsea",
+    "numero_pokedex": "116",
+    "tipo": "Água",
+    "descricao": "Se move usando sua nadadeira dorsal. Quando ameaçado, ele jorra tinta preta.",
+    "link": "https://www.pokemon.com/br/pokedex/horsea",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Marinho",
+      "Tinta"
+    ]
+  },
+  {
+    "nome": "Seadra",
+    "numero_pokedex": "117",
+    "tipo": "Água",
+    "descricao": "Sua barbatana dorsal é venenosamente afiada. É um nadador agressivo.",
+    "link": "https://www.pokemon.com/br/pokedex/seadra",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Marinho",
+      "Venenoso"
+    ]
+  },
+  {
+    "nome": "Goldeen",
+    "numero_pokedex": "118",
+    "tipo": "Água",
+    "descricao": "Nadador elegante. Seu chifre forte pode quebrar rochas para cavar seu ninho.",
+    "link": "https://www.pokemon.com/br/pokedex/goldeen",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Peixe",
+      "Elegante"
+    ]
+  },
+  {
+    "nome": "Seaking",
+    "numero_pokedex": "119",
+    "tipo": "Água",
+    "descricao": "No outono, o macho usa seu chifre para cavar buracos no fundo do rio e construir um ninho.",
+    "link": "https://www.pokemon.com/br/pokedex/seaking",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Chifre",
+      "Ninho"
+    ]
+  },
+  {
+    "nome": "Staryu",
+    "numero_pokedex": "120",
+    "tipo": "Água",
+    "descricao": "O núcleo em seu centro brilha em sete cores diferentes. Quando ele brilha, o Pokémon está em ótima saúde.",
+    "link": "https://www.pokemon.com/br/pokedex/staryu",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Estrela",
+      "Núcleo"
+    ]
+  },
+  {
+    "nome": "Starmie",
+    "numero_pokedex": "121",
+    "tipo": "Água / Psíquico",
+    "descricao": "O núcleo em seu centro brilha com as cores do arco-íris. Diz-se que é capaz de se comunicar com o espaço.",
+    "link": "https://www.pokemon.com/br/pokedex/starmie",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Psíquico",
+      "Espaço"
+    ]
+  },
+  {
+    "nome": "Mr. Mime",
+    "numero_pokedex": "122",
+    "tipo": "Psíquico / Fada",
+    "descricao": "É um mestre da mímica, capaz de materializar objetos invisíveis, como paredes.",
+    "link": "https://www.pokemon.com/br/pokedex/mr-mime",
+    "tags": [
+      "Kanto",
+      "Psíquico",
+      "Mímica",
+      "Parede Invisível"
+    ]
+  },
+  {
+    "nome": "Scyther",
+    "numero_pokedex": "123",
+    "tipo": "Inseto / Voador",
+    "descricao": "Extremamente rápido. Seus braços têm lâminas afiadas que ele usa para fatiar árvores e inimigos.",
+    "link": "https://www.pokemon.com/br/pokedex/scyther",
+    "tags": [
+      "Kanto",
+      "Bicho",
+      "Voador",
+      "Lâmina"
+    ]
+  },
+  {
+    "nome": "Jynx",
+    "numero_pokedex": "124",
+    "tipo": "Gelo / Psíquico",
+    "descricao": "Move-se como se estivesse dançando. Ela se comunica através de movimentos de dança e hipnotiza com a boca.",
+    "link": "https://www.pokemon.com/br/pokedex/jynx",
+    "tags": [
+      "Kanto",
+      "Gelo",
+      "Psíquico",
+      "Dança"
+    ]
+  },
+  {
+    "nome": "Electabuzz",
+    "numero_pokedex": "125",
+    "tipo": "Elétrico",
+    "descricao": "Sempre que uma tempestade se aproxima, ele escala topos de montanhas para ser atingido por um raio.",
+    "link": "https://www.pokemon.com/br/pokedex/electabuzz",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Raio",
+      "Torre de Energia"
+    ]
+  },
+  {
+    "nome": "Magmar",
+    "numero_pokedex": "126",
+    "tipo": "Fogo",
+    "descricao": "Vive em crateras de vulcões. Seus braços e cauda queimam em torno de 1.200°C.",
+    "link": "https://www.pokemon.com/br/pokedex/magmar",
+    "tags": [
+      "Kanto",
+      "Fogo",
+      "Vulcão",
+      "Temperatura Alta"
+    ]
+  },
+  {
+    "nome": "Pinsir",
+    "numero_pokedex": "127",
+    "tipo": "Inseto",
+    "descricao": "Suas pinças são fortes o suficiente para esmagar troncos de árvores. Ele vive em florestas quentes.",
+    "link": "https://www.pokemon.com/br/pokedex/pinsir",
+    "tags": [
+      "Kanto",
+      "Bicho",
+      "Pinça",
+      "Esmagador"
+    ]
+  },
+  {
+    "nome": "Tauros",
+    "numero_pokedex": "128",
+    "tipo": "Normal",
+    "descricao": "Três caudas agitam-se ferozmente antes de atacar. Ele gosta de investir contra qualquer coisa que se mova.",
+    "link": "https://www.pokemon.com/br/pokedex/tauros",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Touro",
+      "Investida"
+    ]
+  },
+  {
+    "nome": "Magikarp",
+    "numero_pokedex": "129",
+    "tipo": "Água",
+    "descricao": "É patético em batalha, mas pode sobreviver em qualquer água, mesmo a mais poluída.",
+    "link": "https://www.pokemon.com/br/pokedex/magikarp",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Inútil",
+      "Salto"
+    ]
+  },
+  {
+    "nome": "Gyarados",
+    "numero_pokedex": "130",
+    "tipo": "Água / Voador",
+    "descricao": "Uma vez que Magikarp evolui, Gyarados se torna terrivelmente violento e destrói tudo ao seu redor.",
+    "link": "https://www.pokemon.com/br/pokedex/gyarados",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Voador",
+      "Violento"
+    ]
+  },
+  {
+    "nome": "Lapras",
+    "numero_pokedex": "131",
+    "tipo": "Água / Gelo",
+    "descricao": "Um Pokémon dócil que transporta pessoas e Pokémon pela água. Foi caçado quase à extinção.",
+    "link": "https://www.pokemon.com/br/pokedex/lapras",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Gelo",
+      "Raro"
+    ]
+  },
+  {
+    "nome": "Ditto",
+    "numero_pokedex": "132",
+    "tipo": "Normal",
+    "descricao": "Pode reorganizar a estrutura de suas células para transformar-se em uma cópia exata de qualquer objeto ou ser vivo.",
+    "link": "https://www.pokemon.com/br/pokedex/ditto",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Transformação",
+      "Cópia"
+    ]
+  },
+  {
+    "nome": "Eevee",
+    "numero_pokedex": "133",
+    "tipo": "Normal",
+    "descricao": "Possui um código genético instável que permite que ele evolua em múltiplas formas, dependendo do ambiente.",
+    "link": "https://www.pokemon.com/br/pokedex/eevee",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Evolução",
+      "Instável"
+    ]
+  },
+  {
+    "nome": "Vaporeon",
+    "numero_pokedex": "134",
+    "tipo": "Água",
+    "descricao": "Pode se dissolver na água e se tornar invisível. É uma criatura aquática elegante.",
+    "link": "https://www.pokemon.com/br/pokedex/vaporeon",
+    "tags": [
+      "Kanto",
+      "Água",
+      "Dissolução",
+      "Evolução de Eevee"
+    ]
+  },
+  {
+    "nome": "Jolteon",
+    "numero_pokedex": "135",
+    "tipo": "Elétrico",
+    "descricao": "Suas células geram eletricidade. Os pelos em seu corpo se transformam em agulhas afiadas quando está irritado.",
+    "link": "https://www.pokemon.com/br/pokedex/jolteon",
+    "tags": [
+      "Kanto",
+      "Elétrico",
+      "Agulhas",
+      "Evolução de Eevee"
+    ]
+  },
+  {
+    "nome": "Flareon",
+    "numero_pokedex": "136",
+    "tipo": "Fogo",
+    "descricao": "Tem uma bolsa de fogo dentro de seu corpo. A temperatura de seu hálito pode chegar a 1.650°C.",
+    "link": "https://www.pokemon.com/br/pokedex/flareon",
+    "tags": [
+      "Kanto",
+      "Fogo",
+      "Hálito Quente",
+      "Evolução de Eevee"
+    ]
+  },
+  {
+    "nome": "Porygon",
+    "numero_pokedex": "137",
+    "tipo": "Normal",
+    "descricao": "O primeiro Pokémon criado por humanos usando programação de computador avançada.",
+    "link": "https://www.pokemon.com/br/pokedex/porygon",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Virtual",
+      "Artificial"
+    ]
+  },
+  {
+    "nome": "Omanyte",
+    "numero_pokedex": "138",
+    "tipo": "Pedra / Água",
+    "descricao": "Um Pokémon extinto, revivido a partir de um fóssil. Ele nada balançando seus dez tentáculos.",
+    "link": "https://www.pokemon.com/br/pokedex/omanyte",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Água",
+      "Fóssil"
+    ]
+  },
+  {
+    "nome": "Omastar",
+    "numero_pokedex": "139",
+    "tipo": "Pedra / Água",
+    "descricao": "Sua boca grande é cercada por tentáculos. Seus dentes eram capazes de esmagar oponentes.",
+    "link": "https://www.pokemon.com/br/pokedex/omastar",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Água",
+      "Extinto"
+    ]
+  },
+  {
+    "nome": "Kabuto",
+    "numero_pokedex": "140",
+    "tipo": "Pedra / Água",
+    "descricao": "Diz-se que ele vivia em águas rasas 300 milhões de anos atrás. Foi revivido a partir de um fóssil.",
+    "link": "https://www.pokemon.com/br/pokedex/kabuto",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Água",
+      "Fóssil"
+    ]
+  },
+  {
+    "nome": "Kabutops",
+    "numero_pokedex": "141",
+    "tipo": "Pedra / Água",
+    "descricao": "Nadador veloz, usa suas garras afiadas para cortar suas presas e beber seus fluidos.",
+    "link": "https://www.pokemon.com/br/pokedex/kabutops",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Água",
+      "Garras"
+    ]
+  },
+  {
+    "nome": "Aerodactyl",
+    "numero_pokedex": "142",
+    "tipo": "Pedra / Voador",
+    "descricao": "Um predador cruel do período Jurássico, revivido a partir de âmbar. Seus dentes afiados eram temidos.",
+    "link": "https://www.pokemon.com/br/pokedex/aerodactyl",
+    "tags": [
+      "Kanto",
+      "Rocha",
+      "Voador",
+      "Pré-Histórico"
+    ]
+  },
+  {
+    "nome": "Snorlax",
+    "numero_pokedex": "143",
+    "tipo": "Normal",
+    "descricao": "Só acorda para comer. Come 400 kg de comida por dia e, uma vez saciado, volta a dormir.",
+    "link": "https://www.pokemon.com/br/pokedex/snorlax",
+    "tags": [
+      "Kanto",
+      "Normal",
+      "Dorminhoco",
+      "Obstrução"
+    ]
+  },
+  {
+    "nome": "Articuno",
+    "numero_pokedex": "144",
+    "tipo": "Gelo / Voador",
+    "descricao": "Um dos Pokémon lendários de Kanto. Suas asas de gelo podem congelar a umidade do ar.",
+    "link": "https://www.pokemon.com/br/pokedex/articuno",
+    "tags": [
+      "Kanto",
+      "Lendário",
+      "Gelo",
+      "Pássaro"
+    ]
+  },
+  {
+    "nome": "Zapdos",
+    "numero_pokedex": "145",
+    "tipo": "Elétrico / Voador",
+    "descricao": "Um dos Pokémon lendários de Kanto. Aparece em nuvens de tempestade e tem o poder de controlar raios.",
+    "link": "https://www.pokemon.com/br/pokedex/zapdos",
+    "tags": [
+      "Kanto",
+      "Lendário",
+      "Elétrico",
+      "Pássaro"
+    ]
+  },
+  {
+    "nome": "Moltres",
+    "numero_pokedex": "146",
+    "tipo": "Fogo / Voador",
+    "descricao": "Um dos Pokémon lendários de Kanto. Diz-se que quando Moltres bate suas asas, as brasas brilham, iluminando as paisagens.",
+    "link": "https://www.pokemon.com/br/pokedex/moltres",
+    "tags": [
+      "Kanto",
+      "Lendário",
+      "Fogo",
+      "Pássaro"
+    ]
+  },
+  {
+    "nome": "Dratini",
+    "numero_pokedex": "147",
+    "tipo": "Dragão",
+    "descricao": "Vive no fundo dos mares. Acredita-se que ele é um Pokémon lendário que ainda existe.",
+    "link": "https://www.pokemon.com/br/pokedex/dratini",
+    "tags": [
+      "Kanto",
+      "Dragão",
+      "Raro",
+      "Oceano"
+    ]
+  },
+  {
+    "nome": "Dragonair",
+    "numero_pokedex": "148",
+    "tipo": "Dragão",
+    "descricao": "Seu corpo irradia uma aura mística. Diz-se que ele tem o poder de mudar o clima.",
+    "link": "https://www.pokemon.com/br/pokedex/dragonair",
+    "tags": [
+      "Kanto",
+      "Dragão",
+      "Místico",
+      "Clima"
+    ]
+  },
+  {
+    "nome": "Dragonite",
+    "numero_pokedex": "149",
+    "tipo": "Dragão / Voador",
+    "descricao": "Um Pokémon marinho que tem a capacidade de voar em velocidades incríveis. É dito ser muito inteligente.",
+    "link": "https://www.pokemon.com/br/pokedex/dragonite",
+    "tags": [
+      "Kanto",
+      "Dragão",
+      "Voador",
+      "Inteligente"
+    ]
+  },
+  {
+    "nome": "Mewtwo",
+    "numero_pokedex": "150",
+    "tipo": "Psíquico",
+    "descricao": "Criado por engenharia genética a partir do DNA de Mew. É o Pokémon com o maior poder psíquico.",
+    "link": "https://www.pokemon.com/br/pokedex/mewtwo",
+    "tags": [
+      "Kanto",
+      "Lendário",
+      "Psíquico",
+      "Genético"
+    ]
+  },
+  {
+    "nome": "Mew",
+    "numero_pokedex": "151",
+    "tipo": "Psíquico",
+    "descricao": "Dizem que tem o DNA de todos os Pokémon em seu corpo. Ele pode se tornar invisível à vontade.",
+    "link": "https://www.pokemon.com/br/pokedex/mew",
+    "tags": [
+      "Kanto",
+      "Mítico",
+      "Psíquico",
+      "DNA",
+      "Invisível"
     ]
   }
 ]

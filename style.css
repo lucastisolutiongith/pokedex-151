@@ -1,242 +1,366 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
-    box-sizing: border-box; /* Define como a largura e altura totais de um elemento são calculadas. */
+    box-sizing: border-box;
 }
 
+/* 🟢 Cores do Tema Pokémon */
 :root {
-    --nba-blue: #006BB6; /* Azul oficial da NBA */
-    --nba-red: #CE1141;  /* Vermelho oficial da NBA */
-    --primary-color: var(--nba-blue); /* Cor primária (azul) */
-    --text-color: #202124; /* Cor do texto principal (escuro) */
-    --bg-color: #FFFFFF; /* Cor de fundo (branco) */
-    --border-color: #e0e0e0; /* Cor para bordas sutis */
+    --pokemon-red: #cc0000;      /* Vermelho da Pokébola */
+    --pokemon-yellow: #ffcc00;   /* Amarelo de Eletricidade/Pikachu */
+    --primary-color: var(--pokemon-red); /* Cor Primária (Vermelho) */
+    --secondary-color: var(--pokemon-yellow); /* Cor Secundária (Amarelo) */
+    --text-color: #000000;       /* Cor do texto principal (escuro) */
+    --bg-color: #e7e7e7;         /* Cor de fundo levemente cinza */
+    --card-bg-color: #e6f8fd;    /* Fundo do cartão (Branco) */
+    --border-color: #d3d3d3;     /* Cor para bordas sutis */
 }
 
 body {
-    margin: 0; /* Remove a margem padrão do corpo da página. */
-    background: var(--bg-color); /* Aplica a cor de fundo definida na variável --bg-color. */
-    color: var(--secondary-color); /* Define a cor do texto padrão usando a variável --secondary-color. */
-    font-family: "Quicksand", sans-serif; /* Define a família da fonte para Quicksand ou uma fonte sans-serif padrão. */
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--text-color); /* Usando text-color para o corpo */
+    font-family: "Quicksand", sans-serif;
 }
 
+/* Estilo para o container da imagem */
+.pokemon-image-wrapper {
+    width: 100%; /* Ocupa a largura total do card */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Estilo para a imagem do Pokémon */
+.pokemon-image {
+    /* Define um tamanho máximo para que a imagem não fique muito grande */
+    max-width: 200px; 
+    height: auto;
+    /* Efeito sutil para destacar a imagem */
+    transition: transform 0.3s ease; 
+}
+
+/* Adiciona um pequeno efeito de hover (opcional) */
+.card:hover .pokemon-image {
+    transform: scale(1.05); 
+}
+
+
+
+/* --- Cores de Fundo para os Cards (Estilização Suave) --- */
+/* ATENÇÃO: Os nomes das classes AGORA estão em PORTUGUÊS e SEM ACENTOS */
+
+.card.type-planta { background-color: #C6E8B4; }     /* Planta (Grass) */
+.card.type-fogo { background-color: #FFC0A8; }      /* Fogo (Fire) */
+.card.type-água { background-color: #B4D7FF; }     /* Água (Water) */
+.card.type-inseto { background-color: #D3E099; }       /* Inseto (Bug) */
+.card.type-normal { background-color: #E6E6C9; }    /* Normal */
+.card.type-elétrico { background-color: #FFECA3; }  /* Elétrico (Electric) */
+.card.type-terrestre { background-color: #F0E0C0; }    /* Terrestre (Ground) */
+.card.type-venenoso { background-color: #E2BFE2; }    /* Venenoso (Poison) */
+.card.type-fada { background-color: #F5C6E9; }     /* Fada (Fairy) */
+.card.type-lutador { background-color: #E0C7C7; }  /* Lutador (Fighting) */
+.card.type-psíquico { background-color: #f8e7ee; }   /* Psíquico (Psychic) */
+.card.type-pedra { background-color: #D3C49C; }      /* Pedra (Rock) */
+.card.type-gelo { background-color: #BDEBFF; }       /* Gelo (Ice) */
+.card.type-fantasma { background-color: #C3B4D3; }     /* Fantasma (Ghost) */
+.card.type-dragão { background-color: #B5B2FF; }    /* Dragão (Dragon) */
+.card.type-aco { background-color: #D1D1E0; }     /* Aço (Steel) */
+.card.type-voador { background-color: #D6C2E6; }    /* Voador (Flying) - Cor extra para tipos puros */
+
+/* Estilo para as tags */
+.pokemon-tags {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    background-color: rgba(0, 0, 0, 0.2); /* Fundo escuro sutil para as tags */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+/* --- ESTILOS DO CABEÇALHO (HEADER) --- */
+
 header {
-    padding: 2rem 1rem; /* Define o espaçamento interno (2rem em cima/baixo, 1rem nos lados). */
-    display: flex; /* Ativa o layout flexbox para alinhar os itens. */
-    align-items: center; /* Alinha os itens flex no centro do eixo transversal (verticalmente). */
-    justify-content: space-around; /* Distribui os itens com espaço igual ao redor deles. */
-    position: sticky; /* Faz o cabeçalho "grudar" no topo da tela ao rolar. */
-    top: 0; /* Define a posição superior para 0 quando o cabeçalho se torna sticky. */
-    background: var(--bg-color); /* Define a cor de fundo do cabeçalho. */
-    z-index: 10; /* Garante que o cabeçalho fique acima de outros elementos na página. */
-    border-bottom: 1px solid var(--border-color); /* Adiciona uma linha de borda na parte inferior. */
-    gap: 1rem; /* Define um espaçamento de 1rem entre os itens flex. */
+    padding: 2rem 1rem;
+    display: flex;
+    /* --- ALTERAÇÕES AQUI --- */
+    flex-direction: column; /* FORÇA O EMPILHAMENTO VERTICAL (Título em cima, Busca embaixo) */
+    align-items: center; /* Centraliza o bloco inteiro horizontalmente */
+    gap: 1.5rem; /* Adiciona espaço entre o título e a busca */
+    /* --- FIM DAS ALTERAÇÕES --- */
+
+    position: sticky;
+    top: 0;
+    background: var(--card-bg-color); 
+    z-index: 10;
+    border-bottom: 3px solid var(--primary-color); 
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.534);
 }
 
 header h1 {
-    font-size: 1.5rem; /* Define o tamanho da fonte do título. */
-    margin: 0; /* Remove qualquer margem externa do título. */
-    font-weight: 500; /* Define o peso da fonte como médio. */
-    white-space: nowrap; /* Impede que o texto do título quebre em várias linhas. */
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 700; /* Negrito para o título */
+    white-space: nowrap;
+    color: var(--primary-color); /* Título em vermelho */
 }
 
-.search-container input {
-    padding: 0.375rem 0.75rem; /* Define o espaçamento interno do campo de texto. */
-    border-radius: 1rem; /* Arredonda as bordas do campo de texto. */
-    border: 1px solid var(--border-color); /* Define a cor e espessura da borda. */
-    background: var(--bg-color); /* Define a cor de fundo do campo. */
-    font-family: inherit; /* Faz o campo de texto herdar a fonte do elemento pai. */
-    font-size: 1.5rem; /* Define o tamanho da fonte do texto digitado. */
-    transition: all 0.2s ease; /* Adiciona uma animação suave para todas as mudanças de estilo. */
-    width: 30rem; /* Define a largura do campo de texto. */
-    color: var(--text-color); /* Define a cor do texto digitado. */
-    margin-right: .5rem; /* Adiciona uma margem à direita do campo. */
+/* Ajustando o seletor para a div do input no seu HTML */
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espaço entre input e botão */
 }
 
-.search-container input::placeholder {
-    font-size: 1.2rem; /* Define o tamanho da fonte para o texto de exemplo (placeholder). */
-    font-weight: 300; /* Define o peso da fonte para o placeholder como leve. */
-    color: #9aa0a6; /* Define a cor do texto do placeholder. */
+header input {
+    padding: 0.5rem 1rem;
+    border-radius: 20px; /* Arredondamento maior para o campo de busca */
+    border: 2px solid var(--border-color);
+    background: var(--bg-color);
+    font-family: inherit;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+    width: 25rem;
+    color: var(--text-color);
 }
 
-.search-container input:focus {
-    outline: none; /* Remove a linha de contorno padrão que aparece ao focar o campo. */
-    border-color: var(--bg-color); /* Muda a cor da borda quando o campo está em foco. */
-    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra para destacar o campo focado. */
+header input::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b97d7d;
+}
+
+header input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px var(--secondary-color); /* Sombra amarela */
 }
 
 #botao-busca {
-    padding: 1rem 2rem; /* Define o espaçamento interno do botão. */
-    border-radius: 1rem; /* Arredonda as bordas do botão. */
-    border: none; /* Remove a borda padrão do botão. */
-    cursor: pointer; /* Muda o cursor para uma "mãozinha" ao passar sobre o botão. */
-    font-family: inherit; /* Faz o botão herdar a fonte do elemento pai. */
-    font-weight: 500; /* Define o peso da fonte do texto do botão. */
-    font-size: 1rem; /* Define o tamanho da fonte do texto do botão. */
-    white-space: nowrap; /* Impede que o texto do botão quebre em várias linhas. */
-    transition: background-color 0.2s ease, color 0.2s ease; /* Animação suave para a cor de fundo e do texto. */
-    background-color: var(--primary-color); /* Define a cor de fundo do botão. */
-    color: var(--bg-color); /* Define a cor do texto do botão. */
-    border: 1px solid var(--primary-color); /* Adiciona uma borda sutil ao botão. */
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    background-color: var(--primary-color);
+    color: var(--card-bg-color); /* Texto do botão em branco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #botao-busca:hover {
-    background-color: var(--nba-red); /* Muda a cor de fundo quando o mouse está sobre o botão. */
-    color: var(--bg-color); /* Muda a cor do texto quando o mouse está sobre o botão. */
-    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra para destacar o botão. */
+    background-color: #e60000; /* Vermelho mais escuro no hover */
 }
 
 #botao-busca:active {
-    transform: scale(0.98); /* Diminui ligeiramente o tamanho do botão ao ser clicado. */
+    transform: scale(0.95);
 }
+
+/* --- ESTILOS DO CONTEÚDO PRINCIPAL (MAIN) --- */
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo for maior que a área visível. */
-    max-width: 80rem; /* Define a largura máxima para o conteúdo principal. */
-    margin: 0 auto; /* Centraliza o conteúdo principal na página. */
-    margin-top: 2rem; /* Adiciona uma margem no topo do conteúdo principal. */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para ocupar o espaço restante na tela. */
+    max-width: 900px; /* Largura ajustada */
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    /* Remover height fixo se a barra de rolagem não for desejada no main */
+    /* height: calc(100vh - 10rem - 4rem); */ 
 }
 
-article {
-    background: var(--bg-color); /* Define o fundo como transparente. */
-    border-radius: 8px; /* Remove o arredondamento das bordas. */
-    padding: 0; /* Remove todo o espaçamento interno. */
-    padding: 0 1rem; /* Adiciona espaçamento interno de 1rem nos lados esquerdo e direito. */
-    margin-bottom: 1.25rem; /* Adiciona uma margem na parte inferior do artigo. */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Remove qualquer sombra do artigo. */
-    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Animação suave para a cor de fundo e da borda. */
-    border-bottom: 1px solid var(--bg-color); /* Adiciona uma linha de borda na parte inferior. */
-    padding-bottom: 1.5rem; /* Adiciona espaçamento interno na parte inferior. */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards se houver mais de um */
+    justify-content: center; /* Centraliza o card */
 }
 
-article:hover {
-    transform: scale(1.01); /* Aumenta ligeiramente o tamanho do artigo quando o mouse está sobre ele. */
-    cursor: pointer; /* Muda o cursor para uma "mãozinha" para indicar que é clicável. */
+article.card {
+    background: var(--card-bg-color);
+    border-radius: 12px; /* Bordas arredondadas */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 3px solid transparent; /* Adicionar borda para o hover */
+    max-width: 250px; /* Define a largura máxima para o card */
+    width: 100%;
 }
 
+article.card:hover {
+    transform: translateY(-5px); /* Efeito de elevação sutil */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    border: 3px solid var(--secondary-color); /* Borda amarela no hover */
+    cursor: default;
+}
+
+/* 📌 Estilos para Compactar as Informações */
 article h2 {
-    margin-top: 0; /* Remove a margem superior do título do artigo. */
-    font-weight: 600; /* Define o peso da fonte como semi-negrito. */
-    font-size: 1.6rem; /* Define o tamanho da fonte do título. */
-    border-bottom: none; /* Remove a borda inferior do título. */
-    padding-bottom: 0; /* Remove o espaçamento interno inferior. */
-    margin-bottom: 0.25rem; /* Adiciona uma pequena margem inferior. */
-    color: var(--primary-color); /* Define a cor do texto do título. */
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+article h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0; /* Margem apenas inferior */
+    color: var(--text-color);
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom:1px dashed var(--border-color); /* Linha divisória sutil */
 }
 
 article p {
-    margin: 0.5rem 0; /* Define margens superior e inferior para o parágrafo. */
-    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor legibilidade. */
-    font-size: 1rem; /* Define o tamanho da fonte do parágrafo. */
-    margin-bottom: 0.5rem; /* Adiciona uma margem na parte inferior. */
-    color: var(--text-color); /* Define a cor do texto do parágrafo. */
+    margin: 0; /* REMOVE MARGENS PARA COMPACTAR LINHAS */
+    padding: 0.1rem 0; /* Adiciona um pequeno padding vertical para espaçamento mínimo */
+    line-height: 1.4; /* Espaçamento entre as linhas do texto */
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+/* Adiciona margem na última linha de características antes dos golpes */
+article p:nth-child(5) { 
+    margin-bottom: 1rem;
 }
 
 article p strong {
-    color: var(--tertiary-color); /* Define a cor para o texto em negrito dentro de um parágrafo. */
-    font-weight: 400; /* Define o peso da fonte como normal. */
+    color: var(--primary-color); /* Títulos das características em vermelho */
+    font-weight: 700;
 }
 
 article a {
-    color: var(--primary-color); /* Define a cor do link. */
-    text-decoration: none; /* Remove o sublinhado padrão dos links. */
-    font-weight: 200; /* Define o peso da fonte como extra-leve. */
+    display: block; /* Faz o link ocupar toda a largura */
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: all 0.3s;
 }
 
 article a:hover {
-    text-decoration: underline; /* Adiciona um sublinhado quando o mouse está sobre o link. */
+    background-color: var(--primary-color);
+    color: var(--card-bg-color);
+    text-decoration: none;
 }
 
-footer {
-    position: absolute; /* Posiciona o rodapé de forma absoluta em relação ao body. */
-    bottom: 0; /* Alinha o rodapé na parte inferior da página. */
-    left: 0; /* Alinha o rodapé à esquerda da página. */
-    width: 100%; /* Faz o rodapé ocupar 100% da largura da página. */
-    color: var(--tertiary-color); /* Define a cor do texto do rodapé. */
-    background-color: var(--bg-color); /* Define a cor de fundo do rodapé. */
-    padding: 15px 20px; /* Define o espaçamento interno do rodapé. */
-    border-top: 1px solid #3c4043; /* Adiciona uma linha de borda no topo do rodapé. */
-    font-size: 0.8rem; /* Define o tamanho da fonte do texto no rodapé. */
-}
+/* --- ESTILOS DO RODAPÉ (FOOTER) --- */
 
-.footer-location {
-    color: #9aa0a6; /* Define a cor do texto para a localização no rodapé. */
-    margin-bottom: 10px; /* Adiciona uma margem inferior. */
+.footer {
+    padding: 15px 20px;
+    border-top: 3px solid var(--primary-color); /* Borda vermelha */
+    background-color: var(--card-bg-color);
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .footer-links {
-    list-style: none; /* Remove os marcadores (bolinhas) da lista. */
-    display: flex; /* Ativa o layout flexbox para os links. */
-    flex-wrap: wrap; /* Permite que os links quebrem para a próxima linha se não houver espaço. */
-    justify-content: center; /* Centraliza os links horizontalmente. */
-    gap: 15px; /* Define um espaçamento de 15px entre os links. */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
 }
 
 .footer-links a {
-    color: #9aa0a6; /* Define a cor dos links no rodapé. */
-    text-decoration: none; /* Remove o sublinhado dos links. */
-    transition: color 0.2s; /* Adiciona uma animação suave para a mudança de cor. */
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
 }
 
 .footer-links a:hover {
-    color: var(--primary-color); /* Muda a cor do link quando o mouse está sobre ele. */
+    color: var(--primary-color);
 }
 
+/* --- MEDIA QUERIES --- */
+
 @media (max-width: 768px) {
-    header { /* Estilos para telas com largura máxima de 768px */
-        flex-direction: column; /* Empilha os itens do cabeçalho verticalmente. */
-        padding: 1rem; /* Reduz o espaçamento interno do cabeçalho. */
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
     }
 
-    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto do título. */
-        margin-bottom: 1rem; /* Adiciona uma margem inferior ao título. */
+    header h1 {
+        text-align: center;
+        margin-bottom: 0;
     }
 
-    .search-container input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Define a largura do campo de texto para 90% da largura da tela. */
-        font-size: 1.2rem; /* Reduz o tamanho da fonte do campo de texto. */
+    header > div {
+        flex-direction: column;
+        width: 100%;
     }
 
-    main { /* Estilos para o main em telas menores */
-        padding: 0 1rem; /* Adiciona espaçamento lateral ao conteúdo principal. */
+    .header-title-wrapper {
+    display: flex; 
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+    justify-content: center; /* Centraliza o bloco de título */
+    width: 100%; /* Ocupa a largura total para centralizar corretamente */
+}
+
+.pokedex-icon {
+    height: 30px; /* Tamanho do ícone */
+    width: auto;
+    margin-left: 10px; /* Espaçamento entre o texto e o ícone */
+}
+    .header-search-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espaço entre input e botão */
+    width: 100%;
+    justify-content: center; /* Centraliza a busca horizontalmente */
+    }
+    /* Ajuste o input para usar largura relativa dentro do wrapper */
+    header input {
+    /* Mantenha as propriedades existentes e defina uma largura máxima */
+    max-width: 25rem;
+    width: 100%; /* Permite que ele se expanda em telas menores */
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    /* ... (outras propriedades) ... */
+   }
+
+    #botao-busca {
+        width: 100%;
     }
 
-    article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de zoom ao passar o mouse sobre o artigo. */
+    main {
+        padding: 0 1rem;
+    }
+
+    article.card:hover {
+        transform: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border: 3px solid transparent;
     }
 }
 
 @media (max-width: 480px) {
-    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
-        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte do título. */
-        max-width: 70%; /* Limita a largura máxima do título. */
-        word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha. */
+    header h1 {
+        font-size: 2.5rem;
     }
 
-    .search-container input, /* Estilos para o input e seu placeholder em telas muito pequenas */
-    .search-container input::placeholder {
-        font-size: 1rem; /* Reduz o tamanho da fonte do campo de texto e do placeholder. */
-    }
-
-    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
-        font-size: 1.3rem; /* Reduz o tamanho da fonte do título do artigo. */
-    }
-
-    .search-container { /* Estilos para a div do cabeçalho em telas muito pequenas */
-        display: flex; /* Ativa o layout flexbox. */
-        align-items: center; /* Alinha os itens verticalmente ao centro. */
-        justify-content: center; /* Centraliza os itens horizontalmente. */
-        flex-direction: column; /* Empilha os itens verticalmente. */
-        gap: 0.5rem; /* Define um espaçamento de 0.5rem entre os itens. */
-    }
-
-    footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé em telas muito pequenas. */
-    }
-
-    button { /* Estilos para o botão em telas muito pequenas */
-        margin-top: 1rem; /* Adiciona uma margem no topo do botão. */
+    .footer {
+        /* Rodapé é mantido, mas com estilo simplificado */
+        margin-top: 1rem;
+        padding: 10px 15px;
     }
 }

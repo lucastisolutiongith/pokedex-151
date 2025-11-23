@@ -12,13 +12,13 @@ Renderização Dinâmica: O JavaScript itera sobre este dataset e gera dinamicam
 2. Mecanismos de Busca e Filtro
 A performance é uma prioridade, utilizando filtros e buscas que operam diretamente sobre o dataset carregado na memória, garantindo respostas quase instantâneas.
 
-Busca: O campo de busca permite que o usuário encontre Pokémon por Nome, Número ou tipo na Pokédex. A funcionalidade é case-insensitive e suporta correspondência parcial de strings.
+Busca: O campo de busca permite que o usuário encontre Pokémon por Nome ou número na Pokédex. A funcionalidade é case-insensitive e suporta correspondência parcial de strings.
 
 🖥️ Como o Usuário Pode Utilizar
 A Pokédex foi desenhada para ser intuitiva e rápida, facilitando a consulta de informações:
 
 Exploração Padrão: Ao acessar a página, o usuário é apresentado à lista completa dos 151 Pokémon. A navegação visual é facilitada pelos cards que exibem o número e o tipo para identificação rápida.
 
-Pesquisa Direta: Para encontrar um Pokémon específico, o usuário deve digitar o nome (ex: "Bulbasaur") ou o número (ex: "1") ou tipo (Planta) no campo de busca e clicar em "Buscar". A tela será filtrada para mostrar apenas os resultados correspondentes.
+Pesquisa Direta: Para encontrar um Pokémon específico, o usuário deve digitar o nome (ex: "Pikachu") ou o número (ex: "25") no campo de busca sem seguida apertar enter ou clicar em "Buscar". A tela será filtrada para mostrar apenas os resultados correspondentes.
 
 A aplicação é totalmente responsiva, garantindo que a experiência de uso seja consistente em diferentes dispositivos e tamanhos de tela.
